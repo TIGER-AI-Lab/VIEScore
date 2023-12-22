@@ -1,6 +1,6 @@
 # VIEScore
 
-Page under construction :) Stay tuned!
+This page is under construction :) Stay tuned! Please visit [https://tiger-ai-lab.github.io/VIEScore/](https://tiger-ai-lab.github.io/VIEScore/)
 
 <div align="center">
 <img src="https://github.com/TIGER-AI-Lab/VIEScore/blob/gh-pages/static/images/teaser.png" width="100%">
