@@ -1,1 +1,293 @@
-hello world
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description" content="We introduce VIEScore, a one-stop library to standardize the inference and evaluation of all the conditional image generation models.">
+    <meta property="og:title" content="VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation" />
+    <meta property="og:description" content="A one-stop library to standardize the inference and evaluation of all the conditional image generation models." />
+    <meta property="og:url" content="https://tiger-ai-lab.github.io/VIEScore/" />
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/images/banner.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+
+    <meta name="twitter:title" content="VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation">
+    <meta name="twitter:description" content="A one-stop library to standardize the inference and evaluation of all the conditional image generation models.">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/banner.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="imagenhub">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>VIEScore</title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon_io/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="static/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="static/js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" charset="utf8" src="static/js/jquery.dataTables.js"></script>
+</head>
+
+<body>
+
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title"> VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation</h1>
+                        <div class="is-size-5 publication-authors">
+                            <!-- Paper authors -->
+                            <span class="author-block">
+                <sup>♠️</sup><a href="https://kuwingfung.github.io/" target="_blank">Max Ku</a>,</span>
+                            <span class="author-block">
+                  <sup>♠️</sup><a href="https://jdf-prog.github.io/" target="_blank">Dongfu Jiang</a>,
+                            <span class="author-block">
+                    <sup>♠️</sup><a href="https://congwei1230.github.io/" target="_blank">Cong Wei</a>,
+                  </span>
+                            <span class="author-block">
+                    <sup>♡</sup><a href="https://xiangyue9607.github.io/" target="_blank">Xiang Yue</a>,
+                  </span>
+                            <span class="author-block">
+                    <sup>♠️</sup><a href="https://wenhuchen.github.io/" target="_blank">Wenhu Chen</a>
+                  </span>
+                        </div>
+
+
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">
+                    <sup>♠️</sup>University of Waterloo,
+                    <sup>♡</sup>IN.AI Research
+                            </span>
+                            <span class="author-block"><small>{m3ku, dongfu.jiang, c58wei}@uwaterloo.ca, xiangyue@in.ai, wenhu.chen@uwaterloo.ca</small></span>
+
+                        </div>
+
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+
+                                <!-- Github link -->
+                                <span class="link-block">
+                      <a href="https://github.com/TIGER-AI-Lab/VIEScore" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                                <span>Code (Comming Soon)</span>
+                                </a>
+                                </span>
+
+                                <!-- ArXiv abstract Link -->
+                                <span class="link-block">
+                    <a href="" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                                <span>arXiv (TBA)</span>
+                                </a>
+                                </span>
+
+                                <span class="link-block">
+                                    <a href="static/files/VIEScore.pdf" target="_blank"
+                                    class="external-link button is-normal is-rounded is-dark">
+                                              <span>📝Paper (pdf)</span>
+                                              </a>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image carousel -->
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column is-full">
+                        <div class="item">
+                            <!-- Your image here -->
+                            <img src="static/images/teaser.png" alt="VIEScore" width="100%"/>
+                            <h2 class="subtitle">
+                                Figure 1: <b>Metrics in the future would provide not just the score but also the rationale, enabling the understanding of each judgment.</b> 
+                                    Which method (VIEScore or traditional metrics) is “closer” to the human perspectives? 
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End image carousel -->
+
+
+    <!-- Paper abstract -->
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h2 class="title is-3">Abstract</h2>
+                        <div class="content has-text-justified">
+                            <p>
+                                In the rapidly advancing field of conditional image generation research, challenges such as limited explainability lie in effectively evaluating the performance and capabilities of various models. This paper introduces VIEScore, a Visual Instruction-guided Explainable metric for evaluating any conditional image generation tasks. VIEScore leverages general knowledge from Multimodal Large Language Models (MLLMs) as the backbone and does not require training or fine-tuning. We evaluate VIEScore on seven prominent tasks in conditional image tasks and found: (1) VIEScore (GPT4-v) achieves a high Spearman correlation of 0.3 with human evaluations, while the human-to-human correlation is 0.45. (2) VIEScore (with open-source MLLM) is significantly weaker than GPT-4v in evaluating synthetic images. (3) VIEScore achieves a correlation on par with human ratings in the generation tasks but struggles in editing tasks. With these results, we believe VIEScore shows its great potential to replace human judges in evaluating image synthesis tasks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End paper abstract -->
+
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container  is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-3">How VIEScore works?</h2>
+                        <div class="item">
+                            <!-- Your image here -->
+                            <img src="static/images/method.png" alt="MY ALT TEXT" />
+                            <h2 class="subtitle has-text-centered">
+                                Figure 2: Process of MLLM evaluation on one synthetic image in VIEScore. All input conditions, synthesized images, and rating instructions are fed together to the MLLM in one pass. Multi-concept image composition task is used here as an example.
+                            </h2>
+                            <img src="static/images/intro_new.png" alt="MY ALT TEXT" />
+                            <h2 class="subtitle has-text-centered">
+                                Figure 3: We study the correlation between MLLMs
+                                and human perspectives on rating images across all tasks in ImagenHub.
+                            </h2>
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container  is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-3">How effective is VIEScore with current state-of-the-art MLLMs?</h2>
+                        <div class="item">
+                            <!-- Your image here -->
+                            <img src="static/images/table_overall.png" alt="MY ALT TEXT" />
+                            <h2 class="subtitle">
+                                Table 1: Correlations across all tasks with different backbone models. We highlight the highest correlation numbers in green. Visit our paper for insights and challenges in VIEScore.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container  is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-3">How is Traditional Metrics correlating with human compare to VIEScore?</h2>
+                        <div class="item">
+                            <!-- Your image here -->
+                            <img src="static/images/table_full1.png" alt="MY ALT TEXT" />
+                            <img src="static/images/table_full2.png" alt="MY ALT TEXT" />
+                            <h2 class="subtitle">
+                                Table 2: Correlations comparison of available methods. We highlight the best method and the correlation numbers closest to human raters. To conclude, VIEScore is the best metric in evaluating synthetic images across all tasks with high potential. DINO on the other proves to be an effective metric in Subject-Driven image generation and editing tasks.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- BibTex citation -->
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">Citation</h2>
+            TBA
+             <!-- 
+            Please kindly cite our paper if you use our code, data, models or results:
+            <br><br>
+            <pre><code>@article{ku2023imagenhub,
+                title={VIEScore: Standardizing the evaluation of conditional image generation models},
+                author={Max Ku and Tianle Li and Kai Zhang and Yujie Lu and Xingyu Fu and Wenwen Zhuang and Wenhu Chen},
+                journal={arXiv preprint arXiv:2310.01596},
+                year={2023}
+            }</code></pre>
+            -->
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+
+                        <p>
+                            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a>                            project page. You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+                                target="_blank">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<style>
+    .buttonGroup {
+        text-align: center;
+    }
+    
+    .buttonGroup>button {
+        padding: 15px;
+        color: white;
+        background-color: #363636;
+        border-radius: 5px;
+    }
+    
+    .buttonGroup>button:hover {
+        box-shadow: 5px;
+    }
+</style>
+
+</html>
