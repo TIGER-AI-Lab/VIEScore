@@ -1,4 +1,6 @@
 # VIEScore
+[![arXiv](https://img.shields.io/badge/arXiv-2312.14867-b31b1b.svg)](https://arxiv.org/abs/2312.14867)
+
 
 This page is under construction :) Stay tuned! Please visit [https://tiger-ai-lab.github.io/VIEScore/](https://tiger-ai-lab.github.io/VIEScore/)
 
