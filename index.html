@@ -176,13 +176,13 @@
                         <div class="item">
                             <!-- Your image here -->
                             <p>
-                                Traditional metrics lack of task awareness! It also lacks of reasoning ability. VIEScore tackles both downsides. In VIEScore, All input conditions, synthesized images, and rating instructions are fed together to the MLLM in one pass. Then we retrieve the score in any scale and the rationale.
+                                Traditional metrics lack task awareness! It also lacks reasoning ability. VIEScore tackles both downsides. In VIEScore, All input conditions, synthesized images, and rating instructions are fed together to the MLLM in one pass. Then we retrieve the score in any scale and the rationale.
                             </p>
                             <img src="static/images/method.png" alt="MY ALT TEXT" />
                             <h2 class="subtitle has-text-centered">
                                 Figure 2: Process of MLLM evaluation on one synthetic image in VIEScore. All input conditions, synthesized images, and rating instructions are fed together to the MLLM in one pass. Multi-concept image composition task is used here as an example.
                             </h2>
-                            <p>To evaluate the effectiveness of our method, we used the 7 conditional Image generation tasks from ImagenHub and compute the correlation with human ratings collected in ImagenHub.</p>
+                            <p>To evaluate the effectiveness of our method, we used the 7 conditional Image generation tasks from ImagenHub and computed the correlation with human ratings collected in ImagenHub.</p>
                             <img src="static/images/intro_new.png" alt="MY ALT TEXT" />
                             <h2 class="subtitle has-text-centered">
                                 Figure 3: We study the correlation between MLLMs
@@ -206,7 +206,7 @@
                     <div class="column is-four-fifths">
                         <h2 class="title is-3">How effective is VIEScore with current state-of-the-art MLLMs?</h2>
                         <div class="item">
-                            <p>But how well can Multimodal large language models access different tasks of conditional Image generation? We reported that the best model GPT4v, performance significantly better than the open-source models. Most open-source MLLMs failed to adapt to our VieScore except LLaVA.</p>
+                            <p>But how well can Multimodal large language models access different tasks of conditional Image generation? We reported that the best model GPT4v’s performance is significantly better than the open-source models. Most open-source MLLMs failed to adapt to our VieScore except LLaVA.</p>
                             <!-- Your image here -->
                             <img src="static/images/table_overall.png" alt="MY ALT TEXT" />
                             <h2 class="subtitle">
@@ -225,7 +225,7 @@
                 <div class="columns is-centered has-text-centered">
                     <div class="column is-four-fifths">
                         <h2 class="title is-3">How is Traditional Metrics correlating with human compare to VIEScore?</h2>
-                        <p>Look into the detail, we found that GPT4v achieve on par with human ratings on text to image task but it straggles on image editing tasks. We also compared with the traditional metrics.</p>
+                        <p>Looking into the details, we found that GPT4v achieves on par with human ratings on text-to-image task but it straggles on image editing tasks. We also compared with the traditional metrics.</p>
                         <div class="item">
                             <!-- Your image here -->
                             <img src="static/images/table_full1.png" alt="MY ALT TEXT" />
@@ -247,7 +247,7 @@
                 <div class="columns is-centered has-text-centered">
                     <div class="column is-four-fifths">
                         <h2 class="title is-3">MLLM struggles on rating image editing tasks</h2>
-                        <p>Why MLLM struggles on rating image editing tasks? This marked the disability of MLLM’s evaluating on multiple images, as MLLMs often confused with the multiple images, such as failing in spotting difference of two images. But we believe VieScore will be a mainstream evaluation method in the nearest future, as in practice multiple image QA is an area coming with many applications and the MLLMs will be improved in the future.</p>
+                        <p>Why MLLMs struggle on rating image editing tasks? This marked the disability of MLLM’s evaluation on multiple images, as MLLMs are often confused with multiple images, such as failing to spot the difference between two images. But we believe VieScore will be a mainstream evaluation method in the near future, as in practice multiple image QA is an area coming with many applications and the MLLMs will be improved in the future.</p>
                         <div class="item">
                             <!-- Your image here -->
                             <img src="static/images/figure4.png" alt="MY ALT TEXT" width="45%"/>
