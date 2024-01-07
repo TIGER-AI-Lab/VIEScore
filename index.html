@@ -227,12 +227,318 @@
                         <h2 class="title is-3">How is Traditional Metrics correlating with human compare to VIEScore?</h2>
                         <p>Looking into the details, we found that GPT4v achieves on par with human ratings on text-to-image task but it straggles on image editing tasks. We also compared with the traditional metrics.</p>
                         <div class="item">
-                            <!-- Your image here -->
-                            <img src="static/images/table_full1.png" alt="MY ALT TEXT" />
-                            <img src="static/images/table_full2.png" alt="MY ALT TEXT" />
-                            <h2 class="subtitle">
+                            <div class="content has-text-justified">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Method</th>
+                                            <th>Method-Human<sup>SC</sup><sub>corr</sub></th>
+                                            <th>Method-Human<sup>PQ</sup><sub>corr</sub></th>
+                                            <th>Method-Human<sup>O</sup><sub>corr</sub></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tabResults">
+                                        <tr class="th">
+                                            <td id="T2I" colspan="4" style="text-align: center; font-weight: bold;">Text-guided Image Generation Model (5 models)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:gray; font-weight: bold;">Human Raters </td>
+                                            <td>-</td>
+                                            <td>Unknown</td>
+                                            <td style="color:gray; font-weight: bold;">0.5044</td>
+                                            <td style="color:gray; font-weight: bold;">0.3640</td>
+                                            <td style="color:gray; font-weight: bold;">0.4652</td>
+                                        </tr>
+                                        <tr>
+                                            <td>CLIP-Score</td>
+                                            <td>-0.0817</td>
+                                            <td>-0.0114</td>
+                                            <td>-0.0881</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4v<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.4885</td>
+                                            <td style="color:black; font-weight: bold;">0.2379</td>
+                                            <td style="color:blue; font-weight: bold;">0.4614</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>1shot</sub>)</td>
+                                            <td>0.4531</td>
+                                            <td>0.1770</td>
+                                            <td>0.3801</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>0shot</sub>)</td>
+                                            <td>0.1809</td>
+                                            <td>0.0306</td>
+                                            <td>0.1410</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>1shot</sub>)</td>
+                                            <td>0.1789</td>
+                                            <td>-0.0020</td>
+                                            <td>0.1309</td>
+                                        </tr>
+                                        <tr class="th">
+                                            <td id="MIE" colspan="4" style="text-align: center; font-weight: bold;">Mask-guided Image Editing Model (4 models)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:gray; font-weight: bold;">Human Raters </td>
+                                            <td style="color:gray; font-weight: bold;">0.5390</td>
+                                            <td style="color:gray; font-weight: bold;">0.5030</td>
+                                            <td style="color:gray; font-weight: bold;">0.4981</td>
+                                        </tr>
+                                        <tr>
+                                            <td>LPIPS</td>
+                                            <td>-0.1012</td>
+                                            <td>0.0646</td>
+                                            <td>-0.0694</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4v<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.4508</td>
+                                            <td style="color:black; font-weight: bold;">0.2859</td>
+                                            <td style="color:blue; font-weight: bold;">0.4069</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>1shot</sub>)</td>
+                                            <td>0.4088</td>
+                                            <td>0.2352</td>
+                                            <td>0.3810</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>0shot</sub>)</td>
+                                            <td>0.1180</td>
+                                            <td>-0.0531</td>
+                                            <td>0.0675</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>1shot</sub>)</td>
+                                            <td>0.1263</td>
+                                            <td>-0.0145</td>
+                                            <td>0.1040</td>
+                                        </tr>
+                                        <tr class="th">
+                                            <td id="TIE" colspan="4" style="text-align: center; font-weight: bold;">Text-guided Image Editing Model (8 models)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:gray; font-weight: bold;">Human Raters </td>
+                                            <td style="color:gray; font-weight: bold;">0.4230</td>
+                                            <td style="color:gray; font-weight: bold;">0.5052</td>
+                                            <td style="color:gray; font-weight: bold;">0.4184</td>
+                                        </tr>
+                                        <tr>
+                                            <td>LPIPS</td>
+                                            <td>0.0956</td>
+                                            <td>0.2504</td>
+                                            <td>0.1142</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4v<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.2610</td>
+                                            <td style="color:black; font-weight: bold;">0.4274</td>
+                                            <td style="color:blue; font-weight: bold;">0.2456</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>1shot</sub>)</td>
+                                            <td>0.2428</td>
+                                            <td>0.3402</td>
+                                            <td>0.2279</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>0shot</sub>)</td>
+                                            <td>0.0448</td>
+                                            <td>0.0583</td>
+                                            <td>0.0273</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>1shot</sub>)</td>
+                                            <td>0.0185</td>
+                                            <td>-0.0107</td>
+                                            <td>0.0258</td>
+                                        </tr>
+                                        <tr class="th">
+                                            <td id="SDIG" colspan="4" style="text-align: center; font-weight: bold;">Subject-driven Image Generation Model (4 models)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:gray; font-weight: bold;">Human Raters </td>
+                                            <td style="color:gray; font-weight: bold;">0.4780</td>
+                                            <td style="color:gray; font-weight: bold;">0.3565</td>
+                                            <td style="color:gray; font-weight: bold;">0.4653</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:blue; font-weight: bold;">DINO</td>
+                                            <td style="color:black; font-weight: bold;">0.4160</td>
+                                            <td>0.1206</td>
+                                            <td style="color:blue; font-weight: bold;">0.4246</td>
+                                        </tr>
+                                        <tr>
+                                            <td>CLIP-I</td>
+                                            <td>0.2961</td>
+                                            <td>0.1694</td>
+                                            <td>0.3058</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>0shot</sub>)</td>
+                                            <td>0.3979</td>
+                                            <td>0.1903</td>
+                                            <td>0.3738</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>1shot</sub>)</td>
+                                            <td>0.2757</td>
+                                            <td style="color:black; font-weight: bold;">0.2261</td>
+                                            <td>0.2753</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>0shot</sub>)</td>
+                                            <td>0.0326</td>
+                                            <td>-0.0303</td>
+                                            <td>0.1219</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>1shot</sub>)</td>
+                                            <td>0.1334</td>
+                                            <td>0.0858</td>
+                                            <td>0.1248</td>
+                                        </tr>
+                                        <tr class="th">
+                                            <td id="SDIE" colspan="4" style="text-align: center; font-weight: bold;">Subject-driven Image Editing Model (3 models)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:gray; font-weight: bold;">Human Raters </td>
+                                            <td style="color:gray; font-weight: bold;">0.4887</td>
+                                            <td style="color:gray; font-weight: bold;">0.2986</td>
+                                            <td style="color:gray; font-weight: bold;">0.4747</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:blue; font-weight: bold;">DINO</td>
+                                            <td>0.3022</td>
+                                            <td>-0.0381</td>
+                                            <td style="color:blue; font-weight: bold;">0.3005</td>
+                                        </tr>
+                                        <tr>
+                                            <td>CLIP-I</td>
+                                            <td>0.2834</td>
+                                            <td>0.1248</td>
+                                            <td>0.2813</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.3274</td>
+                                            <td style="color:black; font-weight: bold;">0.2960</td>
+                                            <td>0.1507</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>1shot</sub>)</td>
+                                            <td>-0.0255</td>
+                                            <td>0.1572</td>
+                                            <td>-0.0139</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>0shot</sub>)</td>
+                                            <td>0.0360</td>
+                                            <td>-0.0073</td>
+                                            <td>0.0168</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>1shot</sub>)</td>
+                                            <td>0.0587</td>
+                                            <td>-0.0249</td>
+                                            <td>0.0309</td>
+                                        </tr>
+                                        <tr class="th">
+                                            <td id="MCIC" colspan="4" style="text-align: center; font-weight: bold;">Multi-concept Image Composition Model (3 models)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:gray; font-weight: bold;">Human Raters </td>
+                                            <td style="color:gray; font-weight: bold;">0.5927</td>
+                                            <td style="color:gray; font-weight: bold;">0.5145</td>
+                                            <td style="color:gray; font-weight: bold;">0.5919</td>
+                                        </tr>
+                                        <tr>
+                                            <td>DINO</td>
+                                            <td>0.0979</td>
+                                            <td>-0.1643</td>
+                                            <td>0.0958</td>
+                                        </tr>
+                                        <tr>
+                                            <td>CLIP-I</td>
+                                            <td>0.1512</td>
+                                            <td>-0.0963</td>
+                                            <td>0.1498</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4v<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.3209</td>
+                                            <td style="color:black; font-weight: bold;">0.3025</td>
+                                            <td style="color:blue; font-weight: bold;">0.3346</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>1shot</sub>)</td>
+                                            <td>0.1859</td>
+                                            <td>0.1185</td>
+                                            <td>0.1918</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>0shot</sub>)</td>
+                                            <td>0.1022</td>
+                                            <td>0.1194</td>
+                                            <td>0.1070</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>1shot</sub>)</td>
+                                            <td>0.0828</td>
+                                            <td>0.0379</td>
+                                            <td>0.0293</td>
+                                        </tr>
+                                        <tr class="th">
+                                            <td id="CIG" colspan="4" style="text-align: center; font-weight: bold;">Control-guided Image Generation Model (2 models)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:gray; font-weight: bold;">Human Raters </td>
+                                            <td style="color:gray; font-weight: bold;">0.5443</td>
+                                            <td style="color:gray; font-weight: bold;">0.5279</td>
+                                            <td style="color:gray; font-weight: bold;">0.5307</td>
+                                        </tr>
+                                        <tr>
+                                            <td>LPIPS</td>
+                                            <td>0.3699</td>
+                                            <td>0.4204</td>
+                                            <td>0.4133</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.4360</td>
+                                            <td style="color:black; font-weight: bold;">0.4975</td>
+                                            <td>0.3999</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4v<sub>1shot</sub>)</td>
+                                            <td>0.3892</td>
+                                            <td>0.4132</td>
+                                            <td style="color:blue; font-weight: bold;">0.4237</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>0shot</sub>)</td>
+                                            <td>0.2207</td>
+                                            <td>0.1060</td>
+                                            <td>0.1679</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(LLaVA<sub>1shot</sub>)</td>
+                                            <td>0.1121</td>
+                                            <td>0.0247</td>
+                                            <td>0.0416</td>
+                                        </tr>
+                            </div>
+                            </tbody>
+                            </table>
+                            
+                            <p>
                                 Table 2: Correlations comparison of available methods. We highlight the best method and the correlation numbers closest to human raters. To conclude, VIEScore is the best metric in evaluating synthetic images across all tasks with high potential. DINO on the other hand proves to be an effective metric in Subject-Driven image generation and editing tasks.
-                            </h2>
+                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
