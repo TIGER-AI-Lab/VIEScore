@@ -3,6 +3,8 @@
 
 This repository hosts our work's code [VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation](https://tiger-ai-lab.github.io/VIEScore/).
 
+* Check out our [Project Page!!!](tiger-ai-lab.github.io/VIEScore/)
+
 VIEScore is a Visual Instruction-guided Explainable metric for evaluating any conditional image generation tasks.
 
 <div align="center">
