@@ -129,19 +129,6 @@ def is_str_valid_score_format_brackets(s):
 
 #+=========================================================================================
 
-def verify_banned_sentence(s):
-    # Open the file and read the lines
-    with open(get_file_path('banned_reasonings.txt'), 'r') as file:
-        lines = file.readlines()
-
-    # Removing any trailing newlines or whitespace
-    lines = [line.strip() for line in lines]
-
-    for sentence in lines:
-        if sentence in s.lower():
-            return False
-    return True
-
 def write_entry_to_json_file(input_string, uid, prompt_input, vision_input, output_file_name, give_up_parsing=False):
     """
     Args:
@@ -157,12 +144,7 @@ def write_entry_to_json_file(input_string, uid, prompt_input, vision_input, outp
 
     # Define the delimiters
     delimiter = '||V^=^V||'
-    
-    if not verify_banned_sentence(input_string):
-        print("Banned sentence found in the string.")
-        return False
-    
-    
+
     if input_string.count(delimiter) == 2:
         if not verify(input_string, delimiter):
             print("The required delimiters were not found correctly in the string.")

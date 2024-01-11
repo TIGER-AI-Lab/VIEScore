@@ -4,6 +4,10 @@ from io import StringIO
 from typing import Union, Optional, Tuple
 from PIL import Image
 
+__version__ = "0.0.1_viescore"
+
+DOMAIN = "https://chromaica.github.io/Museum/"
+
 t2i_models= [
       "SD",
       "SDXL",
