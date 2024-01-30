@@ -1,5 +1,9 @@
 # VIEScore
 [![arXiv](https://img.shields.io/badge/arXiv-2312.14867-b31b1b.svg)](https://arxiv.org/abs/2312.14867)
+[![contributors](https://img.shields.io/github/contributors/TIGER-AI-Lab/VIEScore)](https://github.com/TIGER-AI-Lab/VIEScore/graphs/contributors)
+[![open issues](https://isitmaintained.com/badge/open/TIGER-AI-Lab/VIEScore.svg)](https://github.com/TIGER-AI-Lab/VIEScore/issues)
+[![pull requests](https://img.shields.io/github/issues-pr/TIGER-AI-Lab/VIEScore?color=0088ff)](https://github.com/TIGER-AI-Lab/VIEScore/pulls)
+[![license](https://img.shields.io/github/license/TIGER-AI-Lab/VIEScore.svg)](https://github.com/TIGER-AI-Lab/VIEScore/blob/main/LICENSE)
 
 This repository hosts our work's code [VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation](https://tiger-ai-lab.github.io/VIEScore/).
 
