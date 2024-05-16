@@ -20,6 +20,7 @@ VIEScore is a Visual Instruction-guided Explainable metric for evaluating any co
 </div>
 
 ## 📰 News
+* 2024 May 15: VIEScore is accepted to ACL2024! 
 * 2024 Jan 11: Code is released!
 * 2023 Dec 24: Paper available on [Arxiv](https://arxiv.org/abs/2312.14867). Code coming Soon!
 
