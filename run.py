@@ -407,7 +407,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--mllm",
         type=str,
-        choices=["gpt4v", "llava", "blip2", "fuyu", "qwenvl", "cogvlm", "instructblip", "openflamingo"],
+        choices=["gpt4v", "gpt4o", "llava", "blip2", "fuyu", "qwenvl", "cogvlm", "instructblip", "openflamingo"],
         required=False,
         default="gpt4v",
         help="Select the MLLM model to use",

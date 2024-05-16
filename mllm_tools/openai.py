@@ -75,7 +75,7 @@ def load_image(image: Union[str, Image.Image], format: str = "RGB", size: Option
     return image
 
 class GPT4v():
-    def __init__(self, api_key_path='keys/secret.env', are_images_encoded=False):
+    def __init__(self, api_key_path='keys/secret.env', are_images_encoded=False, model_name="gpt-4-vision-preview"):
         """OpenAI GPT-4-vision model wrapper
         Args:
             api_key_path (str): Path to the API key file. Defaults to 'keys/secret.env'.
@@ -97,7 +97,7 @@ class GPT4v():
             exit(1)
 
         self.url = "https://api.openai.com/v1/chat/completions"
-
+        self.model_name = model_name
         self.use_encode = are_images_encoded
 
     def prepare_prompt(self, image_links: List = [], text_prompt: str = ""):
@@ -127,7 +127,7 @@ class GPT4v():
 
     def get_parsed_output(self, prompt):
         payload = {
-            "model": "gpt-4-vision-preview",
+            "model": self.model_name,
             "messages": [
             {
                 "role": "user",
@@ -172,8 +172,12 @@ class GPT4v():
         else:
             self.api_key = key
 
+class GPT4o(GPT4v):
+    def __init__(self, api_key_path='keys/secret.env', are_images_encoded=False, model_name="gpt-4o-2024-05-13"):
+        super().__init__(api_key_path, are_images_encoded, model_name)
+
 if __name__ == "__main__":
-    model = GPT4v('keys/secret_wenhu.env')
+    model = GPT4o('keys/secret_t5.env')
     prompt = model.prepare_prompt(['https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/DiffEdit/sample_34_1.jpg', 'https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/input/sample_34_1.jpg'], 'What is difference between two images?')
     print("prompt : \n", prompt)
     res = model.get_parsed_output(prompt)
