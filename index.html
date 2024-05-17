@@ -209,7 +209,7 @@
                         <div class="item">
                             <p>But how well can Multimodal large language models access different tasks of conditional Image generation? We reported that the best model GPT4v’s performance is significantly better than the open-source models. Most open-source MLLMs failed to adapt to our VieScore except LLaVA.</p>
                             <!-- Your image here -->
-                            <img src="static/images/table_overall.png" alt="MY ALT TEXT" />
+                            <img src="static/images/table_overall_new.png" alt="MY ALT TEXT" />
                             <h2 class="subtitle">
                                 Table 1: Correlations across all tasks with different backbone models. We highlight the highest correlation numbers in green. Visit our paper for insights and challenges in VIEScore.
                             </h2>
@@ -257,9 +257,21 @@
                                             <td>-0.0881</td>
                                         </tr>
                                         <tr>
+                                            <td>VIEScore(GPT-4o<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.4989</td>
+                                            <td style="color:black; font-weight: bold;">0.2495</td>
+                                            <td>0.3928</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4o<sub>1shot</sub>)</td>
+                                            <td>0.5124</td>
+                                            <td>0.0336</td>
+                                            <td>0.4042</td>
+                                        </tr>
+                                        <tr>
                                             <td style="color:blue; font-weight: bold;">VIEScore(GPT-4v<sub>0shot</sub>)</td>
-                                            <td style="color:black; font-weight: bold;">0.4885</td>
-                                            <td style="color:black; font-weight: bold;">0.2379</td>
+                                            <td>0.4885</td>
+                                            <td>0.2379</td>
                                             <td style="color:blue; font-weight: bold;">0.4614</td>
                                         </tr>
                                         <tr>
@@ -296,10 +308,22 @@
                                             <td>-0.0694</td>
                                         </tr>
                                         <tr>
-                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4v<sub>0shot</sub>)</td>
-                                            <td style="color:black; font-weight: bold;">0.4508</td>
-                                            <td style="color:black; font-weight: bold;">0.2859</td>
-                                            <td style="color:blue; font-weight: bold;">0.4069</td>
+                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4o<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.5421</td>
+                                            <td style="color:black; font-weight: bold;">0.3469</td>
+                                            <td style="color:blue; font-weight: bold;">0.4769</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4o<sub>1shot</sub>)</td>
+                                            <td>0.5246</td>
+                                            <td>0.1272</td>
+                                            <td>0.4432</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>0shot</sub>)</td>
+                                            <td>0.4508</td>
+                                            <td>0.2859</td>
+                                            <td>0.4069</td>
                                         </tr>
                                         <tr>
                                             <td>VIEScore(GPT-4v<sub>1shot</sub>)</td>
@@ -335,10 +359,22 @@
                                             <td>0.1142</td>
                                         </tr>
                                         <tr>
-                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4v<sub>0shot</sub>)</td>
-                                            <td style="color:black; font-weight: bold;">0.2610</td>
-                                            <td style="color:black; font-weight: bold;">0.4274</td>
-                                            <td style="color:blue; font-weight: bold;">0.2456</td>
+                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4o<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.4062</td>
+                                            <td style="color:black; font-weight: bold;">0.4863</td>
+                                            <td style="color:blue; font-weight: bold;">0.3821</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4o<sub>1shot</sub>)</td>
+                                            <td>0.3684</td>
+                                            <td>0.1939</td>
+                                            <td>0.3438</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>0shot</sub>)</td>
+                                            <td>0.2610</td>
+                                            <td>0.4274</td>
+                                            <td>0.2456</td>
                                         </tr>
                                         <tr>
                                             <td>VIEScore(GPT-4v<sub>1shot</sub>)</td>
@@ -368,16 +404,28 @@
                                             <td style="color:gray; font-weight: bold;">0.4653</td>
                                         </tr>
                                         <tr>
-                                            <td style="color:blue; font-weight: bold;">DINO</td>
-                                            <td style="color:black; font-weight: bold;">0.4160</td>
+                                            <td>DINO</td>
+                                            <td>0.4160</td>
                                             <td>0.1206</td>
-                                            <td style="color:blue; font-weight: bold;">0.4246</td>
+                                            <td>0.4246</td>
                                         </tr>
                                         <tr>
                                             <td>CLIP-I</td>
                                             <td>0.2961</td>
                                             <td>0.1694</td>
                                             <td>0.3058</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4o<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.4806</td>
+                                            <td style="color:black; font-weight: bold;">0.2576</td>
+                                            <td style="color:blue; font-weight: bold;">0.4637</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4o<sub>1shot</sub>)</td>
+                                            <td>0.4685</td>
+                                            <td>-0.0171</td>
+                                            <td>0.4292</td>
                                         </tr>
                                         <tr>
                                             <td>VIEScore(GPT-4v<sub>0shot</sub>)</td>
@@ -388,7 +436,7 @@
                                         <tr>
                                             <td>VIEScore(GPT-4v<sub>1shot</sub>)</td>
                                             <td>0.2757</td>
-                                            <td style="color:black; font-weight: bold;">0.2261</td>
+                                            <td>0.2261</td>
                                             <td>0.2753</td>
                                         </tr>
                                         <tr>
@@ -413,10 +461,10 @@
                                             <td style="color:gray; font-weight: bold;">0.4747</td>
                                         </tr>
                                         <tr>
-                                            <td style="color:blue; font-weight: bold;">DINO</td>
+                                            <td>DINO</td>
                                             <td>0.3022</td>
                                             <td>-0.0381</td>
-                                            <td style="color:blue; font-weight: bold;">0.3005</td>
+                                            <td>0.3005</td>
                                         </tr>
                                         <tr>
                                             <td>CLIP-I</td>
@@ -425,9 +473,21 @@
                                             <td>0.2813</td>
                                         </tr>
                                         <tr>
+                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4o<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.4800</td>
+                                            <td style="color:black; font-weight: bold;">0.3734</td>
+                                            <td style="color:blue; font-weight: bold;">0.3268</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4o<sub>1shot</sub>)</td>
+                                            <td>0.3862</td>
+                                            <td>0.1273</td>
+                                            <td>0.3268</td>
+                                        </tr>
+                                        <tr>
                                             <td>VIEScore(GPT-4v<sub>0shot</sub>)</td>
-                                            <td style="color:black; font-weight: bold;">0.3274</td>
-                                            <td style="color:black; font-weight: bold;">0.2960</td>
+                                            <td>0.3274</td>
+                                            <td>0.2960</td>
                                             <td>0.1507</td>
                                         </tr>
                                         <tr>
@@ -470,10 +530,22 @@
                                             <td>0.1498</td>
                                         </tr>
                                         <tr>
-                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4v<sub>0shot</sub>)</td>
-                                            <td style="color:black; font-weight: bold;">0.3209</td>
+                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4o<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.4516</td>
+                                            <td>0.2751</td>
+                                            <td style="color:blue; font-weight: bold;">0.4136</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4o<sub>1shot</sub>)</td>
+                                            <td>0.4120</td>
+                                            <td>-0.0141</td>
+                                            <td>0.3523</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4v<sub>0shot</sub>)</td>
+                                            <td>0.3209</td>
                                             <td style="color:black; font-weight: bold;">0.3025</td>
-                                            <td style="color:blue; font-weight: bold;">0.3346</td>
+                                            <td>0.3346</td>
                                         </tr>
                                         <tr>
                                             <td>VIEScore(GPT-4v<sub>1shot</sub>)</td>
@@ -509,16 +581,28 @@
                                             <td>0.4133</td>
                                         </tr>
                                         <tr>
+                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4o<sub>0shot</sub>)</td>
+                                            <td style="color:black; font-weight: bold;">0.4972</td>
+                                            <td style="color:black; font-weight: bold;">0.4892</td>
+                                            <td style="color:blue; font-weight: bold;">0.5439</td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIEScore(GPT-4o<sub>1shot</sub>)</td>
+                                            <td>0.5544</td>
+                                            <td>0.3699</td>
+                                            <td>0.5238</td>
+                                        </tr>
+                                        <tr>
                                             <td>VIEScore(GPT-4v<sub>0shot</sub>)</td>
-                                            <td style="color:black; font-weight: bold;">0.4360</td>
-                                            <td style="color:black; font-weight: bold;">0.4975</td>
+                                            <td>0.4360</td>
+                                            <td>0.4975</td>
                                             <td>0.3999</td>
                                         </tr>
                                         <tr>
-                                            <td style="color:blue; font-weight: bold;">VIEScore(GPT-4v<sub>1shot</sub>)</td>
+                                            <td>VIEScore(GPT-4v<sub>1shot</sub>)</td>
                                             <td>0.3892</td>
                                             <td>0.4132</td>
-                                            <td style="color:blue; font-weight: bold;">0.4237</td>
+                                            <td>0.4237</td>
                                         </tr>
                                         <tr>
                                             <td>VIEScore(LLaVA<sub>0shot</sub>)</td>
