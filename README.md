@@ -20,8 +20,8 @@ VIEScore is a Visual Instruction-guided Explainable metric for evaluating any co
 </div>
 
 ## 📰 News
-* 2024 May 16: Added GPT4o codebase and we found that GPT4o achieve highest correlation!
-* 2024 May 15: VIEScore is accepted to ACL2024! 
+* 2024 May 16: Added GPT4o results and we found that GPT4o achieve on par correlation with human across all tasks!
+* 2024 May 15: VIEScore is accepted to ACL2024 (main)! 
 * 2024 Jan 11: Code is released!
 * 2023 Dec 24: Paper available on [Arxiv](https://arxiv.org/abs/2312.14867). Code coming Soon!
 
