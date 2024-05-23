@@ -53,7 +53,7 @@ optional arguments:
   -h, --help            show this help message and exit
   --task {tie,mie,t2i,cig,sdig,msdig,sdie}
                         Select the task to run
-  --mllm {gpt4v,llava,blip2,fuyu,qwenvl,cogvlm,instructblip,openflamingo}
+  --mllm {gpt4v, gpt4o, llava,blip2,fuyu,qwenvl,cogvlm,instructblip,openflamingo, gemini}
                         Select the MLLM model to use
   --setting {0shot,1shot}
                         Select the incontext learning setting
