@@ -11,7 +11,7 @@ This repository hosts our work's code [VIEScore: Towards Explainable Metrics for
 VIEScore is a Visual Instruction-guided Explainable metric for evaluating any conditional image generation tasks.
 
 <div align="center">
- 🔥 🔥 🔥 Check out our <a href = "https://tiger-ai-lab.github.io/VIEScore/">[Project Page]</a> for more results and analysis!
+ 🔥 🔥 🔥 Check out our <a href = "https://tiger-ai-lab.github.io/VIEScore/">[Project Page and Leaderboard]</a> for more results and analysis!
 </div>
 
 <div align="center">
@@ -20,6 +20,8 @@ VIEScore is a Visual Instruction-guided Explainable metric for evaluating any co
 </div>
 
 ## 📰 News
+* 2024 May 23: We released all the results and notebook to visualize the results.
+* 2024 May 23: Added Gemini-1.5-pro results.
 * 2024 May 16: Added GPT4o results and we found that GPT4o achieve on par correlation with human across all tasks!
 * 2024 May 15: VIEScore is accepted to ACL2024 (main)! 
 * 2024 Jan 11: Code is released!
@@ -42,7 +44,7 @@ VIEScore is a Visual Instruction-guided Explainable metric for evaluating any co
 
 ```shell
 $ python3 run.py --help
-usage: run.py [-h] [--task {tie,mie,t2i,cig,sdig,msdig,sdie}] [--mllm {gpt4v,llava,blip2,fuyu,qwenvl,cogvlm,instructblip,openflamingo}] [--setting {0shot,1shot}] [--context_file CONTEXT_FILE]
+usage: run.py [-h] [--task {tie,mie,t2i,cig,sdig,msdig,sdie}] [--mllm {gpt4v, gpt4o, llava,blip2,fuyu,qwenvl,cogvlm,instructblip,openflamingo, gemini}] [--setting {0shot,1shot}] [--context_file CONTEXT_FILE]
               [--guess_if_cannot_parse]
 
 Run different task on VIEScore.
@@ -77,6 +79,10 @@ python3 count_entries.py <your_answers_dir>
 ```shell
 python3 clean_result.py <your_answers_dir>
 ```
+
+## Compute Correlations
+
+Refer to `analyze_json.ipynb` notebook.
 
 ## Citation
 
