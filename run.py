@@ -407,7 +407,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--mllm",
         type=str,
-        choices=["gpt4v", "gpt4o", "llava", "blip2", "fuyu", "qwenvl", "cogvlm", "instructblip", "openflamingo"],
+        choices=["gpt4v", "gpt4o", "llava", "blip2", "fuyu", "qwenvl", "cogvlm", "instructblip", "openflamingo", "gemini"],
         required=False,
         default="gpt4v",
         help="Select the MLLM model to use",
@@ -467,7 +467,12 @@ if __name__ == "__main__":
         except:
             print("No secret.env file found. Please create one with your OpenAI API key.")
         mllm_model = GPT4v(gpt4v_keys, are_images_encoded=True)
-
+    elif args.mllm == 'gpt4o':
+        from mllm_tools.openai import GPT4o
+        mllm_model = GPT4o(gpt4v_keys, are_images_encoded=True)
+    elif args.mllm == 'gemini':
+        from mllm_tools.gemini import Gemini
+        mllm_model = Gemini()
     if args.mllm == 'llava':
         from mllm_tools.llava_eval import Llava
         mllm_model = Llava()
