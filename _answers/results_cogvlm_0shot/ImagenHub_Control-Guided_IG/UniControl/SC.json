@@ -1,0 +1,343 @@
+{
+    "sample_13_control_grayscale.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed or edited image of a gift box with truffles and a bow. The image in the center is an Ai-generated representation of the gift box, with truffle-like objects placed on a textured background. The goal is to rate the effectivness of the second, AI, generated image in replicating the first one.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: Love Truffles Selection Ballotin",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_13_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_13_control_grayscale.jpg"
+        ]
+    },
+    "sample_14_control_hed.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed or edited image of the Golden Gate bridge, while the image on right is an Ai-generated artwork inspired by the image to the left.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_14_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_14_control_hed.jpg"
+        ]
+    },
+    "sample_18_control_grayscale.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed photo of grilled pizza bread with toppings like olives and tomatoes. The image in the right is an Ai-generated artwork inspired by the processed photo.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: Grilled Pizza Bread",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_18_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_18_control_grayscale.jpg"
+        ]
+    },
+    "sample_19_control_hed.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed or enhanced image of the Golden Gate bridge, showcasing its iconic towers and suspension cables. The image in the right is an Ai-generated representation of the bridge, using the left image as a reference.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: the golden gate bridge in san francisco, california stock, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_19_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_19_control_hed.jpg"
+        ]
+    },
+    "sample_24_control_hed.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed or edited image of the Golden Gate bridge at night, while the image on right is an Ai-generated version of the same scene.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_24_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_24_control_hed.jpg"
+        ]
+    },
+    "sample_28_control_grayscale.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a group of people at a beach, with some sitting and chatting under an umbrella, while others are enjoying the water. The attire suggests it might be from the late 19th or early 20th century. The painting style is reminiscent of Impressionism, with its loose brush strokes and emphasis on light and atmosphere.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: The Beach Metal Print by Alfred Victor Fournier",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_28_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_28_control_grayscale.jpg"
+        ]
+    },
+    "sample_33_control_grayscale.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dining room with tables set up for a meal. The room has a modern design with wooden flooring, white walls, and large windows. The tablecloths are white, and there are vases with flowers on the tables. The image is in grayscale. The one on the right appears to be a 3D rendered image of a similar dining area. It has a more artistic and abstract design with wavy patterns and a mix of light and shadow. The overall color palette is warm with beige and brown tones.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: The Harbors Dining Rooms",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_33_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_33_control_grayscale.jpg"
+        ]
+    },
+    "sample_38_control_grayscale.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a table with various items, including what appears to be charms, beads, and possibly some small figurines. The items are scattered in different compartments of a plastic container. The image is in grayscale, suggesting it might be an older photograph or taken in a way that emphasizes contrast over color.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: Charms and a whole lot of other stuff!",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_38_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_38_control_grayscale.jpg"
+        ]
+    },
+    "sample_39_control_hed.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed photo of the Golden Gate bridge at a distance, showing the bridge's silhouette against the night sky. The image in the right is an Ai-generated version of the left image, with the bridge illuminated and closer to the viewer, giving a more dramatic and detailed view of the bridge and its surroundings.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: golden gate bridge at night, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_39_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_39_control_hed.jpg"
+        ]
+    },
+    "sample_43_control_grayscale.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left appears to be a baby shower setup with a banner that reads 'It's a Boy' and various baby-themed decorations. The image in the center seems to be an AIs-generated version of the left image, with some modifications. The right image appears to show a burlap-like background with two pieces of paper pinned to it, one with the text 'It\u2019s a boy' and the other with 'Sweet Baby Boy'.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: Its A Boy - Baby Shower Pictures, Photos, and Images for ... White Elephant Christmas",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_43_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_43_control_grayscale.jpg"
+        ]
+    },
+    "sample_49_control_hed.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed or edited image of the Golden Gate bridge, while the image on right is an Ai-generated version using the left image as a reference.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: the golden gate bridge is seen from a hill, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_49_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_49_control_hed.jpg"
+        ]
+    },
+    "sample_53_control_grayscale.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a sunset image of a dock. The image is in grayscale, and it captures the serene atmosphere of the sunset. The sun is setting on the horizon, casting a warm orange glow over the water. The dock extends into the water, and there is a boat moored to it. The sky is filled with clouds, and the reflection of the sky and clouds can be seen in the calm water.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: Sunset image on a dock",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_53_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_53_control_grayscale.jpg"
+        ]
+    },
+    "sample_54_control_hed.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed or edited version of the Golden Gate bridge, while the image on right is an Ai-generated version using the left image as a reference.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_54_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_54_control_hed.jpg"
+        ]
+    },
+    "sample_58_control_grayscale.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed photo of an RV, while the image on right is an Ai-generated artwork inspired by the left image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: exterior 2016 Jayco Pinnacle 36 RSQS Fort Worth, TX",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_58_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_58_control_grayscale.jpg"
+        ]
+    },
+    "sample_63_control_grayscale.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | ",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: Ask Adam: What's the Difference Between Scotch Ale and Scottish Ale?",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_63_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_63_control_grayscale.jpg"
+        ]
+    },
+    "sample_75_control_canny.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a man in a kitchen setting, posing in front a wall of pots, pans, and other kitchen utensils. The image appears to be a sketch or line drawing, possibly indicating that it is a work in progress or a rough draft.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: a man poses in front of some pots and pans ",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_75_control_canny.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_75_control_canny.jpg"
+        ]
+    },
+    "sample_80_control_canny.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a group of men sitting on a park bench. The man in the center appears to be reading a newspaper, while the other men are engaged in various activities such as looking at their shoes or resting their heads. The image is in grayscale and has been processed with Canny edge detection. The one on the right is an Ai-generated version of the left image. It has been created using the processed image as a guide and has a similar composition but with different details.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: a few guys sit next to each other on a bench ",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_80_control_canny.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_80_control_canny.jpg"
+        ]
+    },
+    "sample_83_control_grayscale.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed grayscale image of a vintage dress, while the image on right is an Ai-generated blue dress with a similar design to the left image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: Load image into Gallery viewer, Lake Blue Chelsea Collar Vintage Long Sleeve Fall 50S Dress",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_83_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_83_control_grayscale.jpg"
+        ]
+    },
+    "sample_84_control_hed.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed version of the original image, highlighting the bridge's structure and the surrounding landscape. The image in the center is an Ai-generated version of a bridge, possibly inspired by the original, with a dreamy and artistic touch. The bridge in the image on right is a real photograph of the Golden Gate bridge, taken during sunset or sunrise, with the bridge illuminated and the sky painted in hues of orange and blue.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: a golden gate bridge is seen in the distance, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_84_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_84_control_hed.jpg"
+        ]
+    },
+    "sample_94_control_hed.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed photo of the Golden Gate bridge, showing the bridge's structure in grayscale. The image in the center is an Ai-generated photo that appears to be a color version of the left image, with the bridge painted in red. The right image is a color photo of a section of the bridge, showcasing its iconic red color and the surrounding water.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: a view of the golden gate bridge from the top, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_94_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_94_control_hed.jpg"
+        ]
+    },
+    "sample_95_control_canny.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed black and grayscale shot of what appears to be a cityscape. The image has some visible edges, suggesting it might have been processed using a Canny edge detection algorithm. The tall skyrcraper is distinctly visible in the background. The right image is an A.I- generated image that seems to be inspired by the left image. It has been created using the same black and grey palette and employs a similar style, with the skyscrapers and buildings rendered in a manner that mimics the edges and shading seen in the left picture.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: A black and white shot of a city with a tall skyscraper in the distance.",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_95_control_canny.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_95_control_canny.jpg"
+        ]
+    },
+    "sample_105_control_canny.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | ",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: a desk with three electronics stacked on each other",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_105_control_canny.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_105_control_canny.jpg"
+        ]
+    },
+    "sample_109_control_hed.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed or edited version of the Golden Gate bridge, showing the bridge in a dramatic lighting with a focus on the towers and the suspension cables. The image in the right is an Ai-generated version of a photograph, capturing the bridge during sunset or sunrise with a warm hue, and the surrounding landscape.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_109_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_109_control_hed.jpg"
+        ]
+    },
+    "sample_114_control_hed.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed or edited image of the Golden Gate bridge, while the image on right is an Ai-generated version of the image provided on the right.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_114_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_114_control_hed.jpg"
+        ]
+    },
+    "sample_119_control_hed.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The Golden Gate bridge is one of the most iconic landmarks in the USA. It is located in San Fransisco and is known for its distinctive red color and Art Deco design. The bridge connects San Francisco to Marin County and is a major transportation route.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: the golden gate bridge is a beautiful bridge in san francisco, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_119_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_119_control_hed.jpg"
+        ]
+    },
+    "sample_123_control_grayscale.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a glass of chocolaty beverage topped with whipped cream, while the image on right appears to be a close-up of a red surface, possibly a fabric or a wall.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: chocolate, drink, and food image",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_123_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_123_control_grayscale.jpg"
+        ]
+    },
+    "sample_124_control_hed.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed grayscale image of the Golden Gate bridge, while the image on right is an Ai-generated color image of a bridge that closely resembles the Golden gate bridge.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_124_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_124_control_hed.jpg"
+        ]
+    },
+    "sample_129_control_hed.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed version of the Golden Gate bridge, showing its structure in detail with Canny edge detection. The image in the right is an Ai-generated version of a scene featuring the Golden gate bridge. The AI has been trained on the image on left and has replicated the scene with a bridge in the background, a boat in the water, and a mountainous terrain.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_129_control_hed.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_129_control_hed.jpg"
+        ]
+    },
+    "sample_131_control_depth.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed or edited image, while the image on right is an Ai-generated one using the left image as a guide.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: two polar bears sitting on top of a rock",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_131_control_depth.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_131_control_depth.jpg"
+        ]
+    },
+    "sample_138_control_grayscale.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed or edited image with a seamless heart pattern. The image in the center is an A-I generated image using a grayscale version of the left image as a guide. The one on the right is another A-i generated image, this time using the red and gold heart pattern from the center image as its guide.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: Seamless hearts pattern vector",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_138_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_138_control_grayscale.jpg"
+        ]
+    },
+    "sample_143_control_grayscale.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a processed or edited image of a jacket, while the image on right is an Ai-generated version of the jacket based on a given image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a processed image (e.g. Canny edges, openpose, grayscale etc.) and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the generated image is following the guidance image. \n(0 indicates that the second image is not following the guidance at all. 10 indicates that second image is following the guidance image.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the guidance.\n\nText Prompt: Green Men's Stuff Jacket",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/input/sample_143_control_grayscale.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Control-Guided_IG/UniControl/sample_143_control_grayscale.jpg"
+        ]
+    }
+}

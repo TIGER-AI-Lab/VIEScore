@@ -1,0 +1,866 @@
+{
+    "sample_100558_1.jpg": {
+        "score": [
+            4,
+            2
+        ],
+        "reasoning": "The image has natural lighting and depth, but the abstract, distorted structure in the center doesn't match the rest of the kitchen scene. The surrounding area is coherent but this central anomaly significantly impacts the naturalness and introduces a major artifact.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_100558_1.jpg"
+        ]
+    },
+    "sample_102625_1.jpg": {
+        "score": [
+            8,
+            9
+        ],
+        "reasoning": "The kitchen scene appears quite natural with good lighting and perspective. There might be a minor discrepancy in the shadow direction on the fridge, but otherwise, the scene is coherent. No significant artifacts are noticeable, resulting in a high score for artifact absence.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_102625_1.jpg"
+        ]
+    },
+    "sample_104304_1.jpg": {
+        "score": [
+            4,
+            3
+        ],
+        "reasoning": "The naturalness is affected by the unusual reflection in the sunglasses, which doesn't seem to correspond with the environment. There are also noticeable artifacts: the hand holding the camera looks distorted, reflections on the sunglasses are not symmetrical, and the balloon seems to be floating in an odd position.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_104304_1.jpg"
+        ]
+    },
+    "sample_106508_2.jpg": {
+        "score": [
+            7,
+            6
+        ],
+        "reasoning": "The overall composition and lighting of the street scene look natural. However, the edges of the truck have some abnormalities, and some details around the vehicles and street signs look slightly off which detract from the naturalness and indicate artifacts.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_106508_2.jpg"
+        ]
+    },
+    "sample_106772_2.jpg": {
+        "score": [
+            7,
+            4
+        ],
+        "reasoning": "The naturalness of the setting and the child's interaction with the cooking pot is done quite well. The lighting seems natural, and there is a coherent narrative. However, there are several artifacts present, including distortion around the edges of the child's apron and some of the magnets on the fridge, as well as an unusual combination of images on the fridge. The child's right hand shows slight blurring and inconsistencies, indicating it may not be harmonized perfectly with the action of cooking.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_106772_2.jpg"
+        ]
+    },
+    "sample_108871_1.jpg": {
+        "score": [
+            3,
+            1
+        ],
+        "reasoning": "The zebras have several unnatural distortions especially around their heads and legs with unusual, warped stripes and body parts merging strangely. The background lacks detail providing an unnatural feel to the scene.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_108871_1.jpg"
+        ]
+    },
+    "sample_11091_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The image of the child with the birds appears unnatural due to unusual proportions in the hand and fingers holding the bird, and the face blending into the background unnaturally. The artifacts are significant with blurry areas, especially around the birds and hands, and a distortion in the pattern of the child's shirt.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_11091_1.jpg"
+        ]
+    },
+    "sample_112286_1.jpg": {
+        "score": [
+            2,
+            1
+        ],
+        "reasoning": "The image of the sink has an unnatural perspective as the sink appears to be distorted, with exaggerated curves. The reflection and shadows are inconsistent, and the faucet seems to float without clear anchoring. There are artifacts present such as the lemon half appearing unnaturally embedded into the countertop and the disproportionately sized items in the window sill.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_112286_1.jpg"
+        ]
+    },
+    "sample_122896_1.jpg": {
+        "score": [
+            7,
+            6
+        ],
+        "reasoning": "The surfer and dolphin interaction appears relatively natural and the overall scene is convincing. However, there\u2019s a slight unnaturalness in the water's texture around the dolphin, which suggests digital manipulation, and the dolphin's edge against the wave seems artificially sharp.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_122896_1.jpg"
+        ]
+    },
+    "sample_125106_1.jpg": {
+        "score": [
+            8,
+            8
+        ],
+        "reasoning": "The kitchen scene looks quite natural with proper lighting, shadow, and distance. There is no major distortion, watermark, or unusual body parts.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_125106_1.jpg"
+        ]
+    },
+    "sample_140513_1.jpg": {
+        "score": [
+            3,
+            3
+        ],
+        "reasoning": "The zebras appear to be out of scale with the environment, providing a wrong sense of distance. The shadows and lighting on the zebras do not match the surroundings, which affects the naturalness. Furthermore, there's visible distortion where the zebras' legs meet the ground, causing them to appear floating or improperly integrated with the terrain.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_140513_1.jpg"
+        ]
+    },
+    "sample_142400_1.jpg": {
+        "score": [
+            4,
+            3
+        ],
+        "reasoning": "The image of the child has inconsistencies in the lighting and a blurred quality on the face and hands that detracts from its naturalness. Additionally, the birds seem artificially placed with unnatural edges and proportions. The food image exhibits an unrealistic texture on the eggs and oddly shaped rice. Both images contain an overall lack of harmony in the elements present.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_142400_1.jpg"
+        ]
+    },
+    "sample_142510_1.jpg": {
+        "score": [
+            7,
+            9
+        ],
+        "reasoning": "The second image appears quite natural with appropriate lighting and shadows consistent with the sunset or sunrise background. The aviation elements, however, have a slight stylistic mismatch with the realistic environment which slightly affects the naturalness. The artifacts score is high because there are no significant distortions or unusual body parts, but the watermark-like image in the sky suggests a minor artifact.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_142510_1.jpg"
+        ]
+    },
+    "sample_142510_2.jpg": {
+        "score": [
+            1,
+            0
+        ],
+        "reasoning": "The image composition is overall unnatural with incoherent elements and skewed perspective. There are significant artifacts with distorted texts on signs, strange doodle-like drawings, and an unrealistic overlay of elements onto the scene.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_142510_2.jpg"
+        ]
+    },
+    "sample_142585_1.jpg": {
+        "score": [
+            7,
+            4
+        ],
+        "reasoning": "The overall setting and context of the image seem natural; however, the black car on the right exhibits significant distortion and unusual markings that are not harmonized with the rest of the image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_142585_1.jpg"
+        ]
+    },
+    "sample_147546_1.jpg": {
+        "score": [
+            2,
+            3
+        ],
+        "reasoning": "The image appears unnatural due to distorted proportions and mismatched elements, particularly in the child's hands and clothing. There's also an unrealistic interaction between the birds and the child. Artifacts include blurring and a sense of flatness in the fruits, compromising the image's overall integrity.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_147546_1.jpg"
+        ]
+    },
+    "sample_148240_1.jpg": {
+        "score": [
+            6,
+            4
+        ],
+        "reasoning": "The overall scene looks quite natural, with appropriate shading and interaction among the subjects. However, there's an artifact present on the boy's arm in the foreground, which appears unnaturally twisted, and the edges around the subjects are slightly blurry, indicating possible artifact issues.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_148240_1.jpg"
+        ]
+    },
+    "sample_148240_2.jpg": {
+        "score": [
+            3,
+            3
+        ],
+        "reasoning": "The proportions and placement of the people give an unnatural feeling, particularly the monk's head size in relation to others, and children's poses. Additionally, many faces appear distorted or have inconsistent lighting, and there are artifacts around the monk's bowl.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_148240_2.jpg"
+        ]
+    },
+    "sample_150812_1.jpg": {
+        "score": [
+            2,
+            1
+        ],
+        "reasoning": "The image's subjects are not well integrated; the bear appears realistic, but the robotic figure is clearly out of place and has a different lighting, which gives an unnatural feeling to the scene. There is significant artifacting visible around the robotic figure, indicating an issue with the image generation process.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_150812_1.jpg"
+        ]
+    },
+    "sample_151_1.jpg": {
+        "score": [
+            3,
+            1
+        ],
+        "reasoning": "The second image has multiple issues with naturalness such as incorrect shadows and a disembodied portion of a face visible. The artifacts score is low due to the presence of distorted elements, like the unnatural looking face segment, the transparent area near the trees and the distorted mirror image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_151_1.jpg"
+        ]
+    },
+    "sample_153639_2.jpg": {
+        "score": [
+            2,
+            1
+        ],
+        "reasoning": "The scale and perspective of the pizzas are incorrect, creating an unnatural sense of distance. The distortion is evident in the tray edges and pizza texture, indicating a significant number of artifacts.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_153639_2.jpg"
+        ]
+    },
+    "sample_155790_1.jpg": {
+        "score": [
+            7,
+            3
+        ],
+        "reasoning": "The image appears fairly natural in terms of the setting and pose, but there are several artifact issues: the fingers holding the bird toy look unnaturally bent and partially transparent, the bird on the shoulder seems to merge with the hair abnormally, and the color saturation on the face is inconsistent.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_155790_1.jpg"
+        ]
+    },
+    "sample_158548_1.jpg": {
+        "score": [
+            2,
+            3
+        ],
+        "reasoning": "The image has an unnatural sense of depth and perspective, with the fan appearing distorted and inconsistent with its surroundings. There are noticeable artifacts in the form of blurred and distorted areas, such as the fan and parts of the background, which detract from the image quality.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_158548_1.jpg"
+        ]
+    },
+    "sample_158548_2.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The sheep in the foreground appears oversized compared to the background elements, leading to an unnatural sense of distance. Additionally, there is a watermark present, which is a significant artifact.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_158548_2.jpg"
+        ]
+    },
+    "sample_158726_2.jpg": {
+        "score": [
+            6,
+            7
+        ],
+        "reasoning": "The image appears fairly natural with good representation of the beer and cupcake. However, the reflections and transparency effects on the beer glass seem slightly off, which slightly detracts from naturalness. There are no major visual artifacts, but the beer glass has a subtle outline that doesn't quite match the surroundings.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_158726_2.jpg"
+        ]
+    },
+    "sample_175584_1.jpg": {
+        "score": [
+            7,
+            4
+        ],
+        "reasoning": "The naturalness of the scene is quite convincing with appropriate lighting and distance, however, there is some unnaturalness in the animal placements and reflections. Artifacts are present, including distorted reflections in the water, unusual line patterns on the cows, and an odd fading effect at the edges of the animals that make them blend unnaturally with the environment.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_175584_1.jpg"
+        ]
+    },
+    "sample_177572_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The first image appears unnatural due to the disproportionate size and placement of the birds, and the child's fingers are fusing with the bird's tail feathers. The second image shows a hand that has unusual proportions and an unnatural position, with a distortion around the camera lens.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_177572_1.jpg"
+        ]
+    },
+    "sample_178403_2.jpg": {
+        "score": [
+            7,
+            6
+        ],
+        "reasoning": "The naturalness of the image is quite good with consistent lighting and a believable interior scene setup. However, the window light seems slightly blown out. Regarding artifacts, the overall image is clear but there are a few minor issues, such as the slightly distorted items on the table and the fruit in the foreground that seems unnaturally sharp compared to the rest of the image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_178403_2.jpg"
+        ]
+    },
+    "sample_178928_1.jpg": {
+        "score": [
+            4,
+            2
+        ],
+        "reasoning": "The scenes feel somewhat disjointed, especially with the pizza slice's alignment and proportions in relation to the person's face in the second photo. There is notable artifacting on the person's face and on the pizza slice, with irregular edges and blending issues.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_178928_1.jpg"
+        ]
+    },
+    "sample_182759_3.jpg": {
+        "score": [
+            2,
+            1
+        ],
+        "reasoning": "The image has an incoherent sense of scale with animals appearing disproportionately sized, the shadows and lighting are inconsistent, and the perspective seems unnatural. There's evident distortion, particularly with the cat's and dog's face, the text overlay is obscuring details, and several elements do not appear harmonized.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_182759_3.jpg"
+        ]
+    },
+    "sample_187866_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The images present several issues affecting their naturalness such as unusual pose and inconsistent lighting on the subjects. There are evident artifacts in terms of distorted bird shapes, unnatural interactions between the birds and the people, and unusual textures on the clothing.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_187866_1.jpg"
+        ]
+    },
+    "sample_189893_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The first image appears unnatural due to the distorted proportions of the girl's hands and the birds, which seem out of scale. The second image shows a bathroom with inconsistent perspective, particularly the sink area and the mirror reflection which is incorrect\u2014the water should not be visible at that angle.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_189893_1.jpg"
+        ]
+    },
+    "sample_190360_2.jpg": {
+        "score": [
+            7,
+            8
+        ],
+        "reasoning": "The overall composition looks quite natural, but the person's hand that is partially visible has a slightly unnatural pose and lack of detail. The cat appears quite natural with appropriate shadows and texture.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_190360_2.jpg"
+        ]
+    },
+    "sample_203920_1.jpg": {
+        "score": [
+            8,
+            4
+        ],
+        "reasoning": "The naturalness of the scene is quite high as the composition of the child with birds seems realistic in a real-world setting. However, the artifacts score is lower because there is noticeable distortion on the birds and the child's fingers, particularly around the area where the child is holding the birds, indicating an issue with the harmony of subjects in the image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_203920_1.jpg"
+        ]
+    },
+    "sample_204837_1.jpg": {
+        "score": [
+            4,
+            3
+        ],
+        "reasoning": "The naturalness of the image is affected by the odd proportions and positioning of the kids' limbs. The artifacts are significant, with the distorted facial features, especially on the right child, and the oddly blurred and sharpened areas throughout the image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_204837_1.jpg"
+        ]
+    },
+    "sample_205344_1.jpg": {
+        "score": [
+            6,
+            7
+        ],
+        "reasoning": "The image looks fairly natural with proper lighting and a realistic setting. However, there are minor issues with the proportions of furniture and slight distortion on the person's outfit, reducing its naturalness and introducing minor artifacts.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_205344_1.jpg"
+        ]
+    },
+    "sample_211860_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The naturalness is affected by the unusual pose and distorted proportions, such as the elongated arm and unusual facial features. Artifacts are noticeable with distortion around the racket, the blurred and unrealistic texture of the tennis court, and the mismatched shadowing.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_211860_1.jpg"
+        ]
+    },
+    "sample_215135_1.jpg": {
+        "score": [
+            2,
+            1
+        ],
+        "reasoning": "The overall scene lacks naturalness due to strange distortions and missing parts of the table and chairs. The artifacts are significant with large portions of the table and chairs being malformed and unnatural patches throughout these areas.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_215135_1.jpg"
+        ]
+    },
+    "sample_221222_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The proportions of the cows and their shadows are inconsistent, and the watermark is a major artifact that detracts from the image quality.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_221222_1.jpg"
+        ]
+    },
+    "sample_234956_1.jpg": {
+        "score": [
+            3,
+            4
+        ],
+        "reasoning": "The image has an unnatural sky color and the lighting on the train doesn't match the surroundings, contributing to an unnatural feeling. There are artifacts present such as the text on the sign being distorted and illegible in places, which impacts the overall quality.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_234956_1.jpg"
+        ]
+    },
+    "sample_234956_2.jpg": {
+        "score": [
+            7,
+            3
+        ],
+        "reasoning": "The image presents a natural-looking outdoor setting with the train and the station elements aligned correctly. There is an issue with the signpost text being reversed, indicating a problem with artifact reflection or a layering error. Also, the quality and clarity of the train appear inconsistent with the background, suggesting possible artifact issues.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_234956_2.jpg"
+        ]
+    },
+    "sample_235802_1.jpg": {
+        "score": [
+            7,
+            6
+        ],
+        "reasoning": "The scene appears fairly natural but the perspective is slightly off on the car with the building. There's minor artifacting on the edges of the car, and the reflections on the windows are not perfectly aligned.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_235802_1.jpg"
+        ]
+    },
+    "sample_240967_1.jpg": {
+        "score": [
+            1,
+            0
+        ],
+        "reasoning": "The image feels extremely unnatural due to the presence of floating, distorted text overlaying the truck. Additionally, the entire image seems processed with artifacts like the smudged appearance of the surrounding landscape, the unnatural overlay of text, and the distorted reflection on the truck's surface.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_240967_1.jpg"
+        ]
+    },
+    "sample_24585_1.jpg": {
+        "score": [
+            2,
+            1
+        ],
+        "reasoning": "The image of the girl with birds feels unnatural due to the overly large size of the birds in relation to the girl and inconsistent shadows. The hand's positioning also appears unnatural. The second image has a very unrealistic composition; the bee is disproportionately large in comparison to the airport scene, creating a major disturbance in scale and perspective.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_24585_1.jpg"
+        ]
+    },
+    "sample_24629_1.jpg": {
+        "score": [
+            2,
+            1
+        ],
+        "reasoning": "The naturalness is affected by the disproportionate scale and perspective of the stop sign, the oddly blurred background, and the unnatural light trails. The artifacts are significant, with a highly distorted sticker on the sign, aberrant text, and an overall lack of coherence in the image composition.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_24629_1.jpg"
+        ]
+    },
+    "sample_254387_1.jpg": {
+        "score": [
+            2,
+            1
+        ],
+        "reasoning": "The scene's perspective is unnatural, especially the floating camera. Additionally, the batter's pose and proportions do not seem realistic. There is significant artifacting around the camera and issues with the catcher's and umpire's equipment alignment.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_254387_1.jpg"
+        ]
+    },
+    "sample_256884_1.jpg": {
+        "score": [
+            6,
+            4
+        ],
+        "reasoning": "The tennis court and the player appear overall natural, but the racket is significantly distorted and the proportions and perspective of the tennis player's arm and hand holding the racket are not accurate.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_256884_1.jpg"
+        ]
+    },
+    "sample_256884_2.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "For the image with the girl and tennis racket, the proportions and perspective seem off, and there's an unnatural patch of lighting on her arm. The tennis racket appears to be distorted and its connection to the hand is unrealistic. The shadows on the girl do not match the environment.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_256884_2.jpg"
+        ]
+    },
+    "sample_2585_1.jpg": {
+        "score": [
+            4,
+            3
+        ],
+        "reasoning": "The image gives an unnatural feeling due to the indistinct facial features and the lack of consistent lighting across the scene. There are noticeable artifacts, such as the blurred and smudged areas around the hands and the kitchen utensils, and the uneven borders around the glasses.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_2585_1.jpg"
+        ]
+    },
+    "sample_2585_2.jpg": {
+        "score": [
+            1,
+            1
+        ],
+        "reasoning": "The scale and perspective of the hand is unnatural, with it appearing too large compared to the rest of the body. There's a noticeable lack of texture and form consistency, misalignment of elements, and unusual line artifacts on the hand.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_2585_2.jpg"
+        ]
+    },
+    "sample_259097_1.jpg": {
+        "score": [
+            6,
+            3
+        ],
+        "reasoning": "The image portrays a natural outdoor scene, but the subject has some discrepancy in proportion, such as an unusually sized head compared to the body, and the direction of the shadow doesn't match the lighting on the subject, which affects the naturalness. The artifacts are primarily in the subject's composition and blending with the environment, which looks patched and unnatural, especially around the head.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_259097_1.jpg"
+        ]
+    },
+    "sample_259097_2.jpg": {
+        "score": [
+            2,
+            1
+        ],
+        "reasoning": "The naturalness of the image is compromised due to the unusual color of the field and odd shadow being cast. The person's pose is also quite strange and unrealistic as they seem to be reaching for a floating object that's not clearly presented or integrated within the space. The artifacts score is low because of the presence of a conspicuous watermark or logo floating above the person's hand, which doesn't fit the scene and indicates it's an artifact.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_259097_2.jpg"
+        ]
+    },
+    "sample_266961_1.jpg": {
+        "score": [
+            7,
+            6
+        ],
+        "reasoning": "The naturalness of the scene is good with realistic colors and reasonable perspective. Shadows and lighting are consistent. However, there is an abnormality in the tree's appearance, with branches seeming disconnected, and the yellow object in the foreground appears oddly placed with unclear purpose.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_266961_1.jpg"
+        ]
+    },
+    "sample_267300_1.jpg": {
+        "score": [
+            4,
+            3
+        ],
+        "reasoning": "The first image has an unnatural feeling with the child's hand appearing disproportionately large and a strange texture on the birds. The second image presents a distorted shape of the dog's snout, and the plate seems warped, contributing to the unnatural appearance.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_267300_1.jpg"
+        ]
+    },
+    "sample_292451_1.jpg": {
+        "score": [
+            7,
+            6
+        ],
+        "reasoning": "The image overall looks quite natural with a realistic landscape scene. Slight deduction for naturalness due to the somewhat unnatural positioning and size of the roadside objects and bushes. Minor artifacts are present in the image, possibly around the edges of the bushes and slight blurriness on moving objects, but nothing significantly distorted.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_292451_1.jpg"
+        ]
+    },
+    "sample_29324_1.jpg": {
+        "score": [
+            7,
+            4
+        ],
+        "reasoning": "The scene looks relatively natural with consistent lighting and sense of distance. However, there are noticeable artifacts such as distortion around the dog and potential issues with the watermarks that may cover underlying image errors.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_29324_1.jpg"
+        ]
+    },
+    "sample_294973_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The image of the child has unnatural distortions around the hands and the shirt, where there are too many patterns mixed. The birds appear too static and one-dimensional. In the second image, lighting on the pirate hat is inconsistent with the environment, and there's an abnormal texture to the window ledge and cabinet.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_294973_1.jpg"
+        ]
+    },
+    "sample_302107_2.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The batter's legs and lower torso are missing, leaving a significant part of the image looking unnatural. There are clear artifacts with the incomplete drawing of the player's legs which look like sketch lines. The catcher's pose also seems unnatural.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_302107_2.jpg"
+        ]
+    },
+    "sample_308192_1.jpg": {
+        "score": [
+            2,
+            3
+        ],
+        "reasoning": "The proportions of the racket to the surroundings are unnatural and the handle appears distorted, while various elements such as leaves, and the badge on the racket, have a level of unnatural blurring or blending.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_308192_1.jpg"
+        ]
+    },
+    "sample_313345_1.jpg": {
+        "score": [
+            7,
+            2
+        ],
+        "reasoning": "The Statue of Liberty and the sky seem natural with correct lighting and shadows, but the outline around the statue is noticeably artificial and parts of the statue are blurred, including a distorted flag and unusual artifacts on the raised arm.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_313345_1.jpg"
+        ]
+    },
+    "sample_31749_1.jpg": {
+        "score": [
+            2,
+            1
+        ],
+        "reasoning": "The image has significant distortion with overlapping objects that don't conform to a natural perspective. There are evident artifacts such as unnatural blending and disproportionate elements like the oversized hat and clocks.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_31749_1.jpg"
+        ]
+    },
+    "sample_332877_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The image appears unnatural due to the distorted reflection on the upper part, creating a warped perception of the scene. Additionally, there is noticeable blurring on the faces of the people and their motorcycles, which are also improperly proportioned, contributing to a lack of harmony in the subjects and indicating clear artifacts.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_332877_1.jpg"
+        ]
+    },
+    "sample_336015_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The image has a clear sign of being unnatural due to the drawn or 'sketch-like' appearance of the skier. Additionally, there are artifacts present including the inconsistent outlines and the lack of texture inside the skier's form that does not match the real environment.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_336015_1.jpg"
+        ]
+    },
+    "sample_336015_3.jpg": {
+        "score": [
+            4,
+            2
+        ],
+        "reasoning": "The naturalness of the second image is somewhat compromised due to the juxtaposition of a sketch-like, non-photorealistic bear against a realistic snowy background, which decreases the overall naturalness. The artifacts score is low due to the bear's sketch-like appearance, which starkly contrasts with the photographic style of the rest of the image, creating a sense of visual inconsistency.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_336015_3.jpg"
+        ]
+    },
+    "sample_337180_2.jpg": {
+        "score": [
+            7,
+            3
+        ],
+        "reasoning": "The naturalness score is decent as the scenes are recognizable and the composition is plausible. However, the artifact score is low because the images contain unnatural features such as the disproportionate size and colors of the bird and the cat's eyes, and unusual textures on the child's sweatshirt.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_337180_2.jpg"
+        ]
+    },
+    "sample_341070_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The image of the child holding birds has multiple issues: proportions of the birds and hands are off, the child's face is somewhat blurred, and there's a lack of coherence in the interaction between the figures and the environment. The kitchen image features a bird out of context, indicating a failure in the naturalness of its placement and harmony within the scene.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_341070_1.jpg"
+        ]
+    },
+    "sample_354126_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The first image contains several unnatural elements such as the disproportionate size of birds to the child, and unusual posture of the child's hand. The second image has evident artifacts like the blurred area surrounding the dog's face which suggests distortion, as well as the awkward positioning of the toys.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_354126_1.jpg"
+        ]
+    },
+    "sample_357865_1.jpg": {
+        "score": [
+            2,
+            2
+        ],
+        "reasoning": "The image of the child with birds contains multiple unnatural aspects: the birds seem out of scale and disproportionate, the child's hands and the way they interact with the birds are unnatural. There's also an issue with the child's sweatshirt, which seems to bleed into the birds. The bathroom image has an unnatural reflection in the mirror, showing a different perspective than expected, and the cabinet under the sink has a skewed and unrealistic shape.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_357865_1.jpg"
+        ]
+    },
+    "sample_108871_2.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The image has an unnatural sense of distance and scale among the animals, and the zebra's stripes do not align properly on its body. The cartoon animal stickers are incongruous with the rest of the scene, and there's a noticeable blending issue with the tiger's face and the background.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_108871_2.jpg"
+        ]
+    },
+    "sample_125106_2.jpg": {
+        "score": [
+            7,
+            6
+        ],
+        "reasoning": "The scene in the image looks fairly natural with appropriate kitchen setting and ingredients displayed for baking. However, the image has minor artifacts such as the slightly distorted bananas and the unusually clean and flat looking edge of the bowl at the bottom.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_125106_2.jpg"
+        ]
+    },
+    "sample_134290_2.jpg": {
+        "score": [
+            1,
+            0
+        ],
+        "reasoning": "The image's naturalness is low due to the surreal and abstract distortion of the figure which does not correspond to any natural human form. Artifacts are prominent, as the image has severe distortion all around the figure making it unrecognizable as a human form.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_134290_2.jpg"
+        ]
+    },
+    "sample_204863_1.jpg": {
+        "score": [
+            3,
+            2
+        ],
+        "reasoning": "The people's faces appear blurred, and the proportions and poses look awkward. The man's kilt has an unusual pixelated pattern, suggesting a digital artifact rather than a natural textile pattern. The background appears washed out, lacking texture and detail, which detracts from the natural feel of the scene.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (the delimiter is necessary. Keep your reasoning concise and short.):\n||V^=^V||\n{\n\"score\" : \n\"reasoning\" : \n}\n||V^=^V||\nRULES of each set of inputs:\n\nOne image will be provided; The image is an AI-generated image.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on image naturalness. \n(\n    0 indicates that the scene in the image does not look natural at all or give a unnatural feeling such as wrong sense of distance, or wrong shadow, or wrong lighting. \n    10 indicates that the image looks natural.\n)\nA second score from 0 to 10 will rate the image artifacts. \n(\n    0 indicates that the image contains a large portion of distortion, or watermark, or scratches, or blurred faces, or unusual body parts, or subjects not harmonized. \n    10 indicates the image has no artifacts.\n)\nPut the score in a list such that output score = [naturalness, artifacts]\n\n\nFirst lets look at the first set of input (1st image) as an example. \nOutput:\n||V^=^V||\n{\n\"score\" : [5, 5],\n\"reasoning\" :  \"The image gives an unnatural feeling on hands of the girl. There is also minor distortion on the eyes of the girl.\"\n}\n||V^=^V||\n\nNow evaluate the second set of input (2nd image).\n\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_187866_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDInpaint/sample_204863_1.jpg"
+        ]
+    }
+}

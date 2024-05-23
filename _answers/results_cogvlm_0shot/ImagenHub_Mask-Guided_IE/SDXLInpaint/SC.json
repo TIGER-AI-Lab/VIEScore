@@ -1,0 +1,454 @@
+{
+    "sample_134290_1.jpg": {
+        "score": [
+            8,
+            7
+        ],
+        "reasoning": null,
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: turn her hair white\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_134290_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_134290_1.jpg"
+        ]
+    },
+    "sample_100081_3.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The second image is an edited representation of the original, with a dog added near the shore. The dog appears to be barkingly standing on the sand, and the overall scene seems to be a beach with a few people and a large ball in the water.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: add a dog barking near shore\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_100081_3.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_100081_3.jpg"
+        ]
+    },
+    "sample_102171_1.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image on the right side of the image has the monitor turned black, following the editing instructions.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: Let the monitor turn black.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_102171_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_102171_1.jpg"
+        ]
+    },
+    "sample_104304_3.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image shows the woman holding a cup, which is in line with the instruction to let her hold a coffee cup.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: let the woman hold a cup\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_104304_3.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_104304_3.jpg"
+        ]
+    },
+    "sample_106508_1.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image shows a trucker standing next to a yellow truck, with the original double-decker bus replaced by the truck. The truck has a label on it, but the specific text is not clearly visible. The overall scene seems to be a busy street with cars and trees in the background.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: change the double deck bus to a truck\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_106508_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_106508_1.jpg"
+        ]
+    },
+    "sample_106508_2.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image should show a pediatrician walking on the sidewalk.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: add a pedestrian\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_106508_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_106508_2.jpg"
+        ]
+    },
+    "sample_106772_1.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The child should be holding a spoon instead of a bottled condiment.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: What if the child was holding a bottle of peper?\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_106772_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_106772_1.jpg"
+        ]
+    },
+    "sample_106772_2.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image should have the bird drawing on the shirt, but it should be less prominent or blended in with the shirts color to make it look more natural.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: What if there was a drawing of a bird on his shirt?\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_106772_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_106772_2.jpg"
+        ]
+    },
+    "sample_108871_2.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image shows the zebra drinking from a plastics pool instead of a basin. The grass around the pool is also more vibrant and green. The overall scene looks more natural and aesthetically pleasing.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: turn the basin into a plastic pool\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_108871_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_108871_2.jpg"
+        ]
+    },
+    "sample_112286_1.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The original image has a sink with a faucet and a bowl of fruits on the countertop. The edited image has the same sink but with a bowel of fries instead of the bowl with fruits.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: let it be a single sink\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_112286_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_112286_1.jpg"
+        ]
+    },
+    "sample_122896_1.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image shows a dolPHIN jumping from the water, making the scene more dynamic and adding an element of surprise.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: Have there be a dolphin jumping out of the water\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_122896_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_122896_1.jpg"
+        ]
+    },
+    "sample_125106_3.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image seems to follow the instruction quite well. The ice creams are placed on a plate, and the overall presentation looks similar to the original image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: let the plate contain ice cream\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_125106_3.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_125106_3.jpg"
+        ]
+    },
+    "sample_129587_2.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | Yes, he could be in a forest.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: Could he be in the forest?\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_129587_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_129587_2.jpg"
+        ]
+    },
+    "sample_129587_3.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image shows the elePHANT standing next to a puddle of water, which is a minimal and effective edit to follow the instruction.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: Put a pond next to the elephant\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_129587_3.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_129587_3.jpg"
+        ]
+    },
+    "sample_139276_1.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The man in the image should be wearing a hat.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: What if the man had a hat?\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_139276_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_139276_1.jpg"
+        ]
+    },
+    "sample_140513_2.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The output scores are: score1 = 9, score3 = 1",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: put the zebras next to a river\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_140513_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_140513_2.jpg"
+        ]
+    },
+    "sample_142510_1.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The second image is an edited variation of the original, with a plane added to the sky.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: add a plane in the sky\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_142510_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_142510_1.jpg"
+        ]
+    },
+    "sample_150812_1.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image shows a robotic figure next to a bear, which is not what was intended. The robotic part is not integrated seamlessly with the bear, and the overall effect is jarring. The score for editing success would likely be low, and there would be a high score for overedit, as the image has been altered significantly from the intended result.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: put a robot tiger next to the bear\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_150812_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_150812_1.jpg"
+        ]
+    },
+    "sample_153639_2.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The original image is a pizza with various toppings. The edited image has been modified to have pepperonis as the primary topping.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: make it a pepperoni pizza\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_153639_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_153639_2.jpg"
+        ]
+    },
+    "sample_175584_2.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | Yes, we can have mountains in the background.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: Can we have mountains on the background?\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_175584_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_175584_2.jpg"
+        ]
+    },
+    "sample_177572_1.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The woman in the image is holding a camera in her left hand.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: make the woman hold a camera\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_177572_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_177572_1.jpg"
+        ]
+    },
+    "sample_178403_2.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image shows a table with a cake, apples, and a bowl of cookies. The jar of apples has been removed, but the jar with cookies remains on the table.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: Get rid of the jar of cookies\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_178403_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_178403_2.jpg"
+        ]
+    },
+    "sample_181699_2.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image should show the woman standing near the bottom of the cakes, not on top of them.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: let a woman in a bridal gown stand near the cake\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_181699_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_181699_2.jpg"
+        ]
+    },
+    "sample_184184_1.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The second image appears to be a slightly edited version with an additional cup of clear liquid, possibly water, placed next to the yogurt. The yoghurt container has been slightly shifted to the right. The overall presentation is very similar to the first image, with only minor changes.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: add another cup of water\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_184184_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_184184_1.jpg"
+        ]
+    },
+    "sample_189893_1.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The second image shows a bathtub filled with water and a few flowers, which matches the editing instructions provided.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: add water and flowers in the tub\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_189893_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_189893_1.jpg"
+        ]
+    },
+    "sample_190360_2.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The second image is an edited variation of the original, where a woman has been added inside the hood of the car.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: add a woman inside the car\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_190360_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_190360_2.jpg"
+        ]
+    },
+    "sample_203920_1.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The original image shows a stop sign with the word 'STOP' written on it. The edited image shows the same stop sign but with the silhouette of an animal, possibly a deer, in the center of the word.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: make the stop sing an animal sign\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_203920_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_203920_1.jpg"
+        ]
+    },
+    "sample_214848_1.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The original image shows a living room with a coffee table in the center. The edited image, following the instruction, has the coffee table removed and an aquatic table with fish and plants added in its place.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: remove the table and add an aquarium\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_214848_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_214848_1.jpg"
+        ]
+    },
+    "sample_214848_2.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The original image does have a pink penguine on the left side. The edited image has a pigeon instead of a pengin. So, the editing has been successful in placing a bird, but not in the correct species.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: place a penguin in the picture\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_214848_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_214848_2.jpg"
+        ]
+    },
+    "sample_229301_1.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The original image shows a sign that reads 'SOUTH DAY DISTRICT HEALTH DIRECTORATE GHANA HEALHTH SERVICE NPEVE'. The edited image shows the same sign but with the text 'HEALTH SERVICES HEATSL FUNERAL SERVITAL SERVICE' and an arrow pointing to the right.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: let the sign show an address\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_229301_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_229301_1.jpg"
+        ]
+    },
+    "sample_240967_2.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The original image shows a truck with a large white object on its back, which appears to be a refrigerator or cooler. The edited image shows the same truck but with the door open, revealing the contents of the back.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: open the door of the truck\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_240967_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_240967_2.jpg"
+        ]
+    },
+    "sample_249441_1.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | Sure, here's the edited version:",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: Can we have a blue airplane?\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_249441_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_249441_1.jpg"
+        ]
+    },
+    "sample_25989_3.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image should have a potted plants in the background.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: let there be potted plant\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_25989_3.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_25989_3.jpg"
+        ]
+    },
+    "sample_272405_3.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The original image does have a clock tower, but there is no rocket visible in the image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: add a rocket in the sky\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_272405_3.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_272405_3.jpg"
+        ]
+    },
+    "sample_273560_2.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image shows the bride topper on the topmost tier and the groom's topper at the bottommost tier, as per the instruction.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: Put bride and groom toppers on it.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_273560_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_273560_2.jpg"
+        ]
+    },
+    "sample_291614_1.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image shows a cat sitting on the counter, which is in line with the instruction to place a feline in the kitchen counter.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: place a cat in the counter\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_291614_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_291614_1.jpg"
+        ]
+    },
+    "sample_29324_1.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image shows two surfboard-like objects on the sand, which are not surfing boards. The original image has three surf boards, and the edited one has two. The instruction seems to have been followed to some extent, but not completely.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: Remove the surfboards.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_29324_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_29324_1.jpg"
+        ]
+    },
+    "sample_299200_3.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The original image does have a street in the background, so there is no need for any editing.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: add a street\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_299200_3.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_299200_3.jpg"
+        ]
+    },
+    "sample_336015_2.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The original image on the left shows a skier skiing down a snowy slope with a backdrop of deciduous trees. The edited image on right shows the same skier but with a background of coniferous trees, which are tall and evergreen.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: let the tree be conifers\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_336015_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_336015_2.jpg"
+        ]
+    },
+    "sample_336015_3.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The original image does have a polar bears, so there is no need for any editing.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: add a polar bear\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_336015_3.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_336015_3.jpg"
+        ]
+    },
+    "sample_353915_1.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The edited image shows a policemen standing in the middle of the intersection, which aligns with the editing instructions.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being the original AI-generated image and the second being an edited version of the first.\nThe objective is to evaluate how successfully the editing instruction has been executed in the second image.\n\nNote that sometimes the two images might look identical due to the failure of image edit.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success of the editing. (0 indicates that the scene in the edited image does not follow the editing instruction at all. 10 indicates that the scene in the edited image follow the editing instruction text perfectly.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. (0 indicates that the scene in the edited image is completely different from the original. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the editing success and 'score2' evaluates the degree of overediting.\n\nEditing instruction: Put a policeman in the intersection.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/input/sample_353915_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Mask-Guided_IE/SDXLInpaint/sample_353915_1.jpg"
+        ]
+    }
+}

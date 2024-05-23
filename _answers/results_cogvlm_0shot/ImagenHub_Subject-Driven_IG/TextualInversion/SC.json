@@ -1,0 +1,691 @@
+{
+    "sample_31.jpg": {
+        "score": [
+            7,
+            8
+        ],
+        "reasoning": null,
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A dog sitting with a cat\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_31.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_31.jpg"
+        ]
+    },
+    "sample_67.jpg": {
+        "score": [
+            8,
+            9
+        ],
+        "reasoning": null,
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in Coachella\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_67.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_67.jpg"
+        ]
+    },
+    "sample_94.jpg": {
+        "score": [
+            7,
+            8
+        ],
+        "reasoning": null,
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a fancy boot on a horse\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_94.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_94.jpg"
+        ]
+    },
+    "sample_124.jpg": {
+        "subject": "a red carton figure typing keyboard",
+        "token": "A red cartoons figure typing a keyboard",
+        "rule1": 1,
+        "rule2": 5,
+        "score": [
+            10,
+            10
+        ],
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a red cartoon figure typing keyboards\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_124.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_124.jpg"
+        ]
+    },
+    "sample_0.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a back pack in a natural setting, possibly a forest or a park. The backpack is red and has some patches or badges on it. The image is blurred, making it hard to discern the details, but it gives a sense of the backpack being in a wild or natural environment.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a backpack in Paris\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_0.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_0.jpg"
+        ]
+    },
+    "sample_1.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a back pack in a forest setting, while the image on right depicts the same back pack placed on a rocky ledge overlooking the Grand Cannyon.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a backpack in Grand Canyon\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_1.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_1.jpg"
+        ]
+    },
+    "sample_2.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The AI generated image on the right side of the image shows a back pack in the middle of a waterfall. The backpack is red, and it is placed in the center of the waterfall, surrounded by water. The surrounding environment appears to be rocky and mossy, with water cascading down the rocks. The image captures the essence of the prompt, with the backpack being the main subject and placed in a natural setting that resembles a water fall.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a backpack in the water\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_2.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_2.jpg"
+        ]
+    },
+    "sample_3.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a back pack in a forest setting. The image is a token image for the prompt 'a backpack' in Versailes. The backpack is red, has a few stickers on it, and is hanging from a tree branch. The background consists of trees and the forest floor.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a backpack in Versailles\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_3.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_3.jpg"
+        ]
+    },
+    "sample_4.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a red backpack hanging on a tree branch in a forest setting. The backpack has a few stickers on it. The image to the right depicts a blue moon in a clear sky.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a backpack under the blue moon\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_4.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_4.jpg"
+        ]
+    },
+    "sample_5.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a back pack that resembles a dog on a grassy lawn. The image to the right is an A.I- generated image of a back backpack placed on a sandy beach, with the backpack resembling a dog.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a backpack dog on the beach\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_5.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_5.jpg"
+        ]
+    },
+    "sample_7.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a back pack that resembles a dog on a grassy field. The image to the right is an A.I- generated image of a back bag placed on a desk, with a computer monitor in front of it.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a backpack dog on the desk\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_7.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_7.jpg"
+        ]
+    },
+    "sample_10.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a bear plu...",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A bear plushie on a bed\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_10.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_10.jpg"
+        ]
+    },
+    "sample_12.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a brown teddy bear pluckie sitting on a concrete ledge beside a body of water. The bear is holding a blue container with a white lid. The image is labeled 'Token subject'. The image to the right is an A.I. generated image of a bear. The A. I. generated bear is sitting on wooden planks, holding a similar blue container, and has a similar expression. The generated image is also labeled as 'Generated image'.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a bear plushie in a basket\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_12.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_12.jpg"
+        ]
+    },
+    "sample_13.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a brown bear pluchie sitting by a water body with a blue hat on its head. The image in the right shows a similar brown bear with a green hat on top of a shelf filled with various products.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: Two bear plushie in the store\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_13.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_13.jpg"
+        ]
+    },
+    "sample_14.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a bear toy sitting by a river, and the image on right shows an Ai-generated picture of a bear sitting on a staircase.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a bear plushie in a temple\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_14.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_14.jpg"
+        ]
+    },
+    "sample_15.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a bowl filled with blueberries, and the word 'Bon App\u00e9tit' is written on the bowl. The image to the right is an A.I. generated image using as a reference the image on left. It shows a similar bowl of blueberrie with a flower floating on top, and a cloth with a similar pattern as the one in the left image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a berry bowl with flower\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_15.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_15.jpg"
+        ]
+    },
+    "sample_20.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a can of beer placed on a frozen surface with a house in the background. The image in the right shows a shelf in a supermarket with various beer cans.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A can in supermarket\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_20.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_20.jpg"
+        ]
+    },
+    "sample_21.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a can of 'TRANSIT VIRUS IPA' with a blue background and a graphic of a person surfing a wave. The image is placed on a frozen surface with houses in the background. The text on the can reads 'HEATS UP' and 'BREWED WITH CARAMELized CARA & CARDAMON'. The image has a score of 8.5 for following the token image prompt and a score 9 for resembling the subject. The score for the image on right is 8 for following and 90 for resemblence.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a can\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_21.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_21.jpg"
+        ]
+    },
+    "sample_24.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a can of beer placed on a sandy beach. The can is blue with a graphic of a bird on it. The background shows a clear sky and some houses. The image is labeled 'a can on a beach'. The image to the right is an A.I. generated image based on this prompt. It also shows a beer can on sand, but the can's design is slightly different, and the bird graphic is more abstract. The A. I. generated can is lighter in color and has a more muted background.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a can on the sand\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_24.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_24.jpg"
+        ]
+    },
+    "sample_32.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a cat sitting in a shaded area with sunlight filtering through the leaves. The cat has a calm and relaxed expression. The image to the right is an A.I- generated image of a cat inside a cardboard box. The A. I-generated cat has the same color and pattern as the cat in the left image, and it also has a similar relaxed and calm expression.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A cat in a box\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_32.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_32.jpg"
+        ]
+    },
+    "sample_37.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a real photograph of a gray cat with striking yellow eyes. The cat is resting on a wooden floor, with a toy in front of it. The image to the right is an Ai-generated painting that appears to be inspired by the photograph on the top left. The painting showcases a cat with similar features, sitting on a chair with a blue and green patterned fabric. The background of the painting has a vibrant mix of purple and orange flowers, and there's a hat placed on the chair next to the cat.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A Monet-style painting of cat with a hat on a vacation\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_37.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_37.jpg"
+        ]
+    },
+    "sample_40.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a clock on a street. The image is a token or subject image. The one on the right is an Ai-generated version of the image on left, using the image as a prompt.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A clock on the street\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_40.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_40.jpg"
+        ]
+    },
+    "sample_41.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a token image, while the image on right is an Ai-generated one using the token image as a guide.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A clock on a bed\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_41.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_41.jpg"
+        ]
+    },
+    "sample_42.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a yellow clock with a handle, placed on a white surface. The image in the right shows a hand holding a blue and white clock, with the clock placed on sand.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A clock on the beach\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_42.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_42.jpg"
+        ]
+    },
+    "sample_44.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a yellow clock on what appears to be a table. The clock has a white face with black numbers and hands. The image is clear and well-lit, making the details of the clock easily discernible.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A clock on a table\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_44.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_44.jpg"
+        ]
+    },
+    "sample_50.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dog with a joyful expression, panting with its tongue out, standing in a snowy environment. The image in the right depicts the same dog, but this time it is inside a grand hall with ornate chandeliers, mirrors, and gold decorations, reminiscent of the Hall of Mirrors in the Palace of Versaille.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in the Versailles hall of mirrors\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_50.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_50.jpg"
+        ]
+    },
+    "sample_54.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dog with a joyful expression, standing in a park with trees in the background. The dog appears to be a fluffy, light-colored breed, possibly a Corgi, with its tongue out. The image seems to be taken during the daytime. The one on the right depicts the same dog, but this time, it is positioned in front of the Eiffell Tower in Paris, France. The background shows a pathway with people walking and trees lining the sides. The sky appears to have a light overcast.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in Eiffel Tower\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_54.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_54.jpg"
+        ]
+    },
+    "sample_55.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a fluffy dog walking on a path surrounded by trees. The image in the center depicts a dog walking through a grand hall with ornate gold decorations and mirrors on the walls.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in the Versailles hall of mirrors\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_55.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_55.jpg"
+        ]
+    },
+    "sample_57.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a fluffy dog walking on a path with a person in the background. The image is captioned 'a dog in a park'. The image in the right shows a dog with a similar fluffiness and color, but in a different setting with people around. The caption for this image is 'a fluffie in Cochealla'.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in Coachella\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_57.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_57.jpg"
+        ]
+    },
+    "sample_58.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a token image of a dog walking on a path in a forest. The image in the right is an AIs generated image using this image as a prompt.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in moutain Fuji\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_58.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_58.jpg"
+        ]
+    },
+    "sample_59.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dog walking in a forest, while the image on right shows a fluffy dog in front of the Eiffell Tower.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in Eiffel Tower\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_59.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_59.jpg"
+        ]
+    },
+    "sample_60.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dog standing on a pebble-covered ground near a body of water. The dog has curly white fur and is looking directly at the camera. The image is labeled 'Token subject image'. The image to the right is an A.I- generated image using as guidance the image on left. The A. I-generated dog is standing on the same pebbled ground but is surrounded by a large amount of its own fur, which has been artistically arranged to resemble the hall of Mirrors at Versaille. The generated image is also labeled as 'Generated image'.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in the Versailles hall of mirrors\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_60.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_60.jpg"
+        ]
+    },
+    "sample_62.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dog standing on a pebbled beach with a person's legs visible in the background. The dog appears to be a white, curly-haired breed, possibly a poodle or a similar breed. The image has a natural, outdoor setting with a clear sky and calm waters. The text prompt for this image is 'a dog in a beach setting'. The image is a token image, which means it is used as a reference or starting point for the AIs to generate images.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in Coachella\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_62.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_62.jpg"
+        ]
+    },
+    "sample_63.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is the token image, and the image on right is the AIs generated image using it as guidance to create a dog that looks like it's in mountain Fuji.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in moutain Fuji\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_63.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_63.jpg"
+        ]
+    },
+    "sample_64.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dog standing on a pebbled beach with a person's legs visible in the background. The dog is wearing a red collar with a tag that reads 'JOE'. The image to the right depicts an A.I. generated image of a dog wearing blue clothing with the same tag 'Joe' and standing in front of the Eiffell Tower.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in Eiffel Tower\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_64.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_64.jpg"
+        ]
+    },
+    "sample_65.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dog peeking out from behind a window blinds, while the image on right depicts a dog's reflection in a grand mirror surrounded by ornate decorations, reminiscent of the Versailles hall.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in the Versailles hall of mirrors\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_65.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_65.jpg"
+        ]
+    },
+    "sample_68.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is the token image, and the image on right is the Ai-generated one using the token as guidance, with scores for both the prompt adherence and subject resemblence provided.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in moutain Fuji\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_68.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_68.jpg"
+        ]
+    },
+    "sample_69.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dog looking out of a window with a cityscape in the background. The image to the right is an Ai-generated version of the left image, with the dog's image superimposed onto a view of the Eiffell Tower.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in Eiffel Tower\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_69.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_69.jpg"
+        ]
+    },
+    "sample_70.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a real photograph of a dog sitting in front the Acropolus. The image in the right is an Ai-generated picture of a similar dog sitting before the Acropolus.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog in front of Acropolis\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_70.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_70.jpg"
+        ]
+    },
+    "sample_74.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a cute puppy with a short haircute, while the image on right is an Ai-generated version of the puppy.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog having a haircut\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_74.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_74.jpg"
+        ]
+    },
+    "sample_76.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dog sitting in front of a TV, watching a show with a bird on a mountain. The image in the right is a generated image of the dog standing in a field of purple flowers, looking happy and content.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog watching a TV show about birds\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_76.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_76.jpg"
+        ]
+    },
+    "sample_80.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dog with a white and black coat, possibly a Border Collie, sniffingly approaching a back pack. The dog's fur is predominantly white with black patches, and it has a distinctive black marking around its eye. The backpack appears to be made of nylon and is placed on a grassy ground surrounded by fallen leaves.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a dog sniffing a backpack\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_80.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_80.jpg"
+        ]
+    },
+    "sample_82.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a dog with a distinctive coat pattern, possibly a Border Collie, standing in a field with fallen leaves. The dog appears to be in a relaxed posture with its tongue out. The image to the right depicts a shepherd, possibly in a rural setting, herding sheep. The shephard is wearing a blue jacket and a hat, and he seems to be guiding the sheep in a specific direction.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A dog herding a group of sheep\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_82.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_82.jpg"
+        ]
+    },
+    "sample_91.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a white boot with fringes placed on a grassy field. The image in the right depicts a concert stage with bright stage lights shining down, and a large audience gathered to watch the performance.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a fancy boot under the stage lights\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_91.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_91.jpg"
+        ]
+    },
+    "sample_92.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a white boot with fringes placed on a grassy field. The image in the right depicts a cat peeking through the bars of a cage, with a similar fringed design on the cage.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a cat inside a fancy boot\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_92.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_92.jpg"
+        ]
+    },
+    "sample_95.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The output score and reasoning are: score1 = 8, score3 = 9, score4 = 1. Reasoning: The AI image closely follows the given prompt with the sloth dangling from a bag. The resemblances to the original image are also quite high, especially in the details of the slothy face and body.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a grey sloth plushie dangles lazily from a backpack\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_95.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_95.jpg"
+        ]
+    },
+    "sample_99.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The AI generated image shows a boy holding a sloth toy, which is not the same as the sloth in the token image. The boy in the AIG image is also wearing a green shirt with some text on it, and the background appears to be a forest.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A boy is holding a grey sloth plushie\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_99.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_99.jpg"
+        ]
+    },
+    "sample_102.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a toy monster sitting on a window sill, looking out at a cityscape. The image to the right depicts an A.I- generated car with a design that closely resembles the toy's body, driving on a road with buildings in the background.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a monster toy driving a car\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_102.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_102.jpg"
+        ]
+    },
+    "sample_103.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a red, plush toy resembling a monstrous creature with big eyes, sitting by a window. The toy is looking out at a cityscape with buildings. The image to the right displays a plate of sushis with various fillings, including what appears to be a roll with red topping, possibly a type of fish roe.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a monster toy having sushi\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_103.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_103.jpg"
+        ]
+    },
+    "sample_105.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a pair of pink cat-eye sunglases with a chain hanging from one of the temples, placed on a white surface next to a glass of water with a slice of lemon. The image is accompanied by a text that reads 'pink sunnies sitting on riverbank'. The image to the right is an A.I- generated image using as a reference the image on left. It also depicts a pair pink-tinted sunggles with a similar chain hanger, placed next to the same glass of leemon water. The A. I-generated sungles have a slightly different tint and shadowing compared to the original image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: pink sunglasses sitting on a riverbank\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_105.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_105.jpg"
+        ]
+    },
+    "sample_107.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a pair of pink-tinted sung glasses placed on a white sheet, with a shadow of the glasses cast on the sheet. The image in the right displays a wooden surface with vertical wooden planks. The planks have a weathered appearance with some visible nails and a mix of light and dark shades.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: pink sunglasses on a wooden deck\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_107.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_107.jpg"
+        ]
+    },
+    "sample_108.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a pair of pink-tinted sung glasses placed on a white surface next to a glass of water with a slice of lemon. The image is labeled 'Token subject image'. The image to the right depicts a teddie bear wearing a black outfit with a badge on its chest. The bear is sitting against a gray background. This image is the 'Generated image'.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: pink sunglasses worn by a teddy bear\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_108.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_108.jpg"
+        ]
+    },
+    "sample_116.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a toy rc race car on the edge of a railway platform. The image to the right is an Ai-generated picture of a rally car on railway tracks.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a rc car on a railway track\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_116.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_116.jpg"
+        ]
+    },
+    "sample_117.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a toy rc race car on a bridge. The image to the right appears to be an Ai-generated version of the left image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a rc car on the bridge\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_117.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_117.jpg"
+        ]
+    },
+    "sample_120.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a simple cartoon drawing of a red figure, possibly a devil or a demon, standing upright with a neutral expression. The figure is red in color, has two horns, and is depicted in a simplistic style. The image is labeled 'token subject'. The image to the right is a 3D-rendered figure that appears to be a humanoid with a grayish body, two red lightsabers, and a somewhat surprised or concerned expression. This figure is standing in a fencing stance, holding one of the lightsaber blades in front of it. The 3d figure is lined up against a gray background, and the image is captioned 'AI-generated'.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a red cartoon figure playing fencing\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_120.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_120.jpg"
+        ]
+    },
+    "sample_122.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a simple cartoon representation of a red figure playing a guitar. The figure has a simplistic design with a straight body, two arms, and two legs. It has a neutral expression and is colored red. The image is quite minimalistic and lacks any intricate details.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a red cartoon figure playing guitar\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_122.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_122.jpg"
+        ]
+    },
+    "sample_141.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a vase, and the image on right is a boat. The boat is yellow and has a design that resembles the vase on the right.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A thin-neck Guangzhou vase floating on the river\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_141.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_141.jpg"
+        ]
+    },
+    "sample_144.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left is a green thin vase, and the image on right is an Ai-generated artwork inspired by the image of the vase.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: A green thin-neck Guangzhou vase\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_144.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_144.jpg"
+        ]
+    },
+    "sample_145.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The AI image on the left is a playful representation of a woolly dog chasing after a foxy plush toy. The dog has a red scarf around its neck, and the fox has a tag with the word 'FOX' on it. The background of the left image is a brick wall, while the background of both images is a greenish-brown carpet. The AE image on right is a bit more detailed with the wolf having a more realistic appearance, and it's also wearing a red bandana around its head. The fox in this image also has a similar tag with 'FOXY' written on it, and both the dog and fox are placed on the same greenish carpet as the left one.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a wolf plushie chasing a fox plushie\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_145.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_145.jpg"
+        ]
+    },
+    "sample_146.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image on the left shows a plush toy of a woolly dog sitting on the ground. The image to the right depicts a wine store with a bar area. The plushy dog in the left image is placed on a concrete surface next to a brick wall, while the one in the right image is positioned in front of a wooden shelf displaying various bottles of wine.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a wolf plushie sitting on a wine bar\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_146.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_146.jpg"
+        ]
+    },
+    "sample_147.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The AI generated image is of a plane flying in the air with a wig on its propeller, resembling a woolly dog. The score for following the rule is 5 and for resemblence is 7.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a wolf plushie jumping high in the sky\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_147.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_147.jpg"
+        ]
+    },
+    "sample_149.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The AI generated image is of a wool plush toy lying on a ground, and the other image is a touristic site with a large archway.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nTwo images will be provided: The first being a token subject image and the second being an AI-generated image using the first image as guidance.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the second image does not follow the prompt at all. 10 indicates the second image follows the prompt perfectly.)\nA second score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the first image. \n(0 indicates that the subject in the second image does not look like the token subject at all. 10 indicates the subject in the second image look exactly alike the token subject.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the prompt and 'score2' evaluates the resemblance.\n\nText Prompt: a wolf plushie walking towards a tourist site\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/input/sample_149.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IG/TextualInversion/sample_149.jpg"
+        ]
+    }
+}

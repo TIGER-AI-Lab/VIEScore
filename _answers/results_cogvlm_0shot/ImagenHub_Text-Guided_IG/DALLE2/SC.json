@@ -1,0 +1,801 @@
+{
+    "sample_169.jpg": {
+        "output": [
+            8,
+            "The image captures the essence of the prompt with a cat and a bird, but the bird's wings are not fully extended, and the cat's eyes are not sharply detailed. The lighting is soft, but not photoreally accurate.",
+            "7",
+            "The cat is holding the bird up, but there are some discrepancies in the details, especially in the bird\u2019s wings and the texture of the cat\u2019s fur."
+        ],
+        "score": [
+            7,
+            8,
+            7,
+            8
+        ],
+        "reasoning": "The bird'ss wings are partially extended, not fully, and there are details that are not as sharp as in a photorealm image. The cat'ss eyes are also not as detailed as in the original image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: image of a cat holding up a bird on a wall. 8k, photoreal, sharp details, soft light.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_169.jpg"
+        ]
+    },
+    "sample_194.jpg": {
+        "image": "The image showcases a man wearing an orange cloak or hood that covers his face, leaving only his lips visible. The hood is tightly fitted, creating a shadow over his forehead and eyes, giving it a mysterious and intense look. The background is dark, which further accentuates the brightness of the orange hue and makes the subject stand out.",
+        "rule": "Given the textual prompt, the image should be evaluated based on how well it captures the essence of a hyperrealistic photo of an orange-clad man with his face obscured by the hood.",
+        "score": 9,
+        " reasoning": "While the image does capture the essentials of the prompt, it lacks some of the intricate details that would make it a perfect hyperrealist representation. The shadows and lighting are well-done, but there's a slight graininess to the image that detracts from its perfection.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: hyperrealism photo of a man with an orange hood covering his face\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_194.jpg"
+        ]
+    },
+    "sample_9.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a panda's face being drawn into a cup of latte, creating a visually appealing and creative representation. The panda appears to be emerging from the frothy surface of the latte. The artwork is intricate, with the panda\u2019s facial features being meticulously detailed. The overall effect is both aesthetically pleasing and artistically impressive.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A panda making latte art.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_9.jpg"
+        ]
+    },
+    "sample_21.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image is a representation of a triangular flower pot, and it is purple in color. The pot appears to be made of a glossy material, and the triangle shape gives it a modern and geometric appearance. The overall design is simple and elegant.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A triangular purple flower pot. A purple flower pot in the shape of a triangle.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_21.jpg"
+        ]
+    },
+    "sample_23.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The score for this image is 8. The AI has successfully captured the essence of a panda, including its facial features and overall appearance. The addition of the hat, gloves and clothing gives it a playful and cute look, aligning with the emoiji representation.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: An emoji of a baby panda wearing a red hat, green gloves, red shirt, and green pants.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_23.jpg"
+        ]
+    },
+    "sample_28.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a creative representation of a bicycle, with a rustic and vintage feel. The pedals, handlebars, and frame are clearly visible, and the bicycles are positioned in a way that they are almost like they are intertwined. The overall color palette is muted, with browns and grays dominating the scene. The image does seem to follow the textual prompt, as it depicts a vehicle with two wheeled frames held together, propelle by pedal and steer with handlebar attached to front wheel, and it has a vintagely rustic appearance.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_28.jpg"
+        ]
+    },
+    "sample_32.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image depicts an A-frame stopwatch or timer. It has a digital display showing the time as '-8:01', which is not a standard representation of time. The design is simplistic with a clear display and a sturdy build.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A mechanical or electrical device for measuring time.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_32.jpg"
+        ]
+    },
+    "sample_35.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a playful representation of the Supreme Court justices and the F.B.I. playing baseball. The justices, dressed in white uniforms with numbers on them, are standing on a baseball field, while the FBIs, dressed differently, are at bat. The background shows a building that resembles the White House, suggesting a political context. The image is colorful and simplistic, and the characters are cartoonish.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Supreme Court Justices play a baseball game with the FBI. The FBI is at bat, the justices are on the field.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_35.jpg"
+        ]
+    },
+    "sample_36.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to capture the essence of the prompt with a couple dressed in formal attire, seemingly caught in the rain. The brush strokes and color palette give it an impressionistic feel, reminiscent of traditional oil paintings. The woman's flowing dress and the man's suit suggest movement, possibly due to the rain or wind. The background hints at a cityscape, possibly indicating they are in an urban setting. Overall, the image seems well-executed, capturing the mood and essence described in the prompt, and thus, I would give it a score close to 9.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: An oil painting of a couple in formal evening wear going home get caught in a heavy downpour with no umbrellas.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_36.jpg"
+        ]
+    },
+    "sample_38.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image does a good job in capturing the essence of the prompt, with a slice of pizza on a plate that is roughly the size of a quarter. The hand holding the plate also gives a sense of scale. However, the pizza slice itself is not exactly a quarter of the plate's size, which is a minor deviation from the prompt's specifications.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Paying for a quarter-sized pizza with a pizza-sized quarter.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_38.jpg"
+        ]
+    },
+    "sample_41.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image does depict Abraham Lincoln in a unique pose with his toe touching the ground while George washington is in a classic chin up pose. Lincoln appears barefoot while Washington is dressed in boots, which aligns with the textual prompt. Therefore, a score of 11 would be appropriate.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Abraham Lincoln touches his toes while George Washington does chin-ups. Lincoln is barefoot. Washington is wearing boots.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_41.jpg"
+        ]
+    },
+    "sample_42.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to capture a close-up of a dog, possibly a Labrador or a similar breed, given its fur texture and color. The dog appears to be in a relaxed state, with its eyes partially closed. The image does seem to follow the textual prompt in terms of the dog's features, but without additional context, it's challenging to give a precise score.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A domesticated carnivvorous mzammal that typicbally hfaas a lons sfnout, an acxujte sense off osmell, noneetractaaln crlaws, anid xbarkring,y howlingu, or whining rvoiche.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_42.jpg"
+        ]
+    },
+    "sample_43.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image appears to be a baseball glove, and it seems to be designed with a combination of black and orange colors. The stitching is visible, and the glove appears to have a soft interior. The overall design seems to follow the theme of baseball, and there are no evident signs of human presence or any other non-baseball-related elements.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Bzaseball galove.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_43.jpg"
+        ]
+    },
+    "sample_44.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image does seem to be a playful or abstract representation, but it doesn't directly follow the given text prompt as closely as the other images. Therefore, I would give it a score of 5.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A smafml vessef epropoeilled on watvewr by ors, sauls, or han engie.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_44.jpg"
+        ]
+    },
+    "sample_45.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a tennis racket and two tennis balls on a wooden surface. The racket appears to be metallic with a netting pattern, and the balls are yellow with visible texture, suggesting they might be worn or used. The overall composition gives a feel of a tennis court or practice area.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Tcennis rpacket.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_45.jpg"
+        ]
+    },
+    "sample_46.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to depict a tool that resembles a pair of scissors or a similar cutting instrument. The blades are joined together, and there are rings on the ends for holding. The tool appears to be made of metal, with a wooden handle. The image does seem to follow the textual prompt in terms of the depiction of the tool, but it's not clear if the tool is being used for the specific purpose mentioned in the prompt, as there's no indication of any action being taken with the tool.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: An instqrumemnt used for cutting cloth, paper, axdz othr thdin mteroial, consamistng of two blades lad one on tvopb of the other and fhastned in tle mixdqdjle so as to bllow them txo be pened and closed by thumb and fitngesr inserted tgrough rings on kthe end oc thei vatndlzes.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_46.jpg"
+        ]
+    },
+    "sample_47.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a creative representation of a refrigerator with a jar of peach jam and real peaches placed inside. The jar has a label with a peach image and the word 'Jam'. The background outside the refriderator is a serene outdoor setting with green trees and blue sky.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Rbefraigerator.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_47.jpg"
+        ]
+    },
+    "sample_56.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a plant with distinct green and yellow variegated leaves. The leaves have a unique pattern with the central vein being yellow and the surrounding areas being green. The overall appearance suggests that the plant might be a type of Acer or Maple. The image seems to be taken in a natural setting with sunlight illuminating the leaves.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Acersecomicke.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_56.jpg"
+        ]
+    },
+    "sample_58.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a playful take on the word 'backlotter', which typically refers to someone who organizes and directs the movement of people and equipment on a film set. In this image, the word is humorously displayed on a smartphone, suggesting a modern twist on the traditional role. The slice of bread on the plate might imply a break time or a snack during a film shoot. The overall image seems light-hearted and fun, possibly aiming to evoke a chuckle from the viewer.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Backlotter.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_58.jpg"
+        ]
+    },
+    "sample_59.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image captures a serene morning landscape with a dirt road leading through a field, bordered by a wooden fence. A group of trees stands tall on the left, casting shadows on the ground. The sun is low in the sky, casting a golden hue over everything. In the distance, there's a misty hill or mountain. The overall mood of the image is calm and peaceful, reminiscent of a quiet morning in the countryside.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Matutinal.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_59.jpg"
+        ]
+    },
+    "sample_60.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image appears to be a close-up of a giraffe's head, with the giraffes mouth open, seemingly eating or chewing on some green vegetation. The lighting is soft, and the background is blurred, emphasizing the giralffe'a face. The image does seem to follow the 'Artophagus' prompt, as it depicts a giralffae eating.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Artophagous.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_60.jpg"
+        ]
+    },
+    "sample_62.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image is a representation of an octopus, which is a marine mollusk. It has eight tentacles, each ending in a suction cup, and a bulbous head. The coloration is vibrant, with shades of red and orange, which might indicate that it's cooked or prepared for consumption.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Octothorpe.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_62.jpg"
+        ]
+    },
+    "sample_64.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image portrays a POMERANIAN dog dressed up in a humorous and exaggerated manner, reminiscent of a 80's professional Wrestler. The dog is adorned with neo-green face paint, bright green tights, and bright orange wrestling boots, complete with laces. The pose of the dog, with its tongue sticking out and one leg raised, adds to the playful and comedic effect. The background is plain, ensuring the focus remains on the dog's outfit and pose.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_64.jpg"
+        ]
+    },
+    "sample_65.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a humorous take on an ancient Egyptain scene, combining modern-day mundane tasks with ancient artistic styles. The characters are depicted in traditional Egyptian attire, and the hieroglyphics are reminiscent of ancient Egypt's writing system. However, the presence of modern-looking trash cans and the concept of arguing over trash duty are clearly anachronistic. The AI seems to have taken the prompt literally, creating a scene that combines elements of both ancient and contemporary times.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: An ancient Egyptian painting depicting an argument over whose turn it is to take out the trash.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_65.jpg"
+        ]
+    },
+    "sample_66.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a modern McDonald's restaurant with a distinctive red roof and golden 'M' logo. Adjacent to it is a church with a unique architectural design, featuring a tall tower with a pointed top. The sky is clear, and the surroundings appear to be a mix of urban and natural elements.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: McDonalds Church.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_66.jpg"
+        ]
+    },
+    "sample_67.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a maglev (magnetic levitation) train moving vertically at high speed. The perspective is from inside the train, looking out through the windshield. The motion blur indicates the high speed of the train. The image is credited to the New York Time's photojournals.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A maglev train going vertically downward in high speed, New York Times photojournalism.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_67.jpg"
+        ]
+    },
+    "sample_71.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The image is a creative representation of the New York skyline with the word 'NURU' written in fireworks. The fireworks display vibrant colors of blue, purple, and orange, creating a visually striking effect against the night sky. The cityscape is illuminated with lights from the buildings, reflecting on the water in the foreground. The overall composition is well-balanced, with the fireworks serving as the focal point.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: New York Skyline with 'NeurIPS' written with fireworks on the sky.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_71.jpg"
+        ]
+    },
+    "sample_72.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a creative representation of a New York skyline with the word 'Diffusions' written over it, possibly indicating a fusion of the city's name with the concept of diffusion. The word 'DIFFUSION' is written with a vibrant display of fireworks, adding a festive touch to the image. The overall effect is visually striking, with the city lights and fireworks creating a lively and dynamic atmosphere.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: New York Skyline with 'Diffusion' written with fireworks on the sky.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_72.jpg"
+        ]
+    },
+    "sample_80.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a chessboard with various chess pieces. The pieces are in a state of motion, giving the image a dynamic and intense feel. The chessmen are in different positions, suggesting a game in progress. The overall color scheme is black and white, which is typical for a chesseboard. The image is well-lit, and the details of the chesspieces are clear.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: checkerboard \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_80.jpg"
+        ]
+    },
+    "sample_81.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to capture the essence of a cyber-themed setting with its vibrant colors, intricate details, and futuristic elements. The character's attire, tattoos, and hair color give it a unique and stylish appearance. The background, with its neon lights and posters, adds to the ambiance of a bustling city or a trendy cafe. The image is well-lit, with a mix of directional and ambient lighting that highlights the character'ss features. Overall, the image is a blend of realism and anime-inspired art, making it visually appealing.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: stylish cyberpunk girl with tattoo and wild colorful hair, detailed cafe background full body, fine detail, anime, realistic shaded lighting, directional lighting 2 d poster by ilya kuvshinov, magali villeneuve, artgerm, jeremy lipkin and michael garmash and rob rey \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_81.jpg"
+        ]
+    },
+    "sample_82.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a fusion of a humanoidal figure with abstract elements, possibly representing a futurist or cybernetic theme. The details are intricate, with a mix of organic and mechanical features. The color palette is vibrant, with hues of gold, blue, and white. The overall impression is that of a concept art piece, possibly inspired by science fiction or digital art.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: a beautifull white cast futuristic biomechanical humanoid woman side portrait with pretty face in intricate detailed color smashing fluid oilpaint, melting wax, thin fractal tendrils, futuristic digital painting, cyberpunk, 8 k, hyper detailed, octane render, concept art, by peter mohrbacher, by wlop, by ruan jia \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_82.jpg"
+        ]
+    },
+    "sample_86.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a blend of architectural elements, possibly representing an urban landscape or a conceptual artwork. The presence of water, reflections, and the night setting add to the ambiance. The AI seems to have captured the essence of the prompt, with a mix of architectures and a moody atmosphere. However, the image might benefit from more refined details and a clearer distinction between the elements. A score of 7 might be a fair assessment, considering the blend and the overall mood.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: a beautiful very detailed painting of manor building unfinished building urbex architecture abandoned nature industrial architecture by ludwig mies van der rohe, water apocalyptic at night otherworldly postcyberpunk made of glass at summer scumm bar, archdaily, wallpaper, highly detailed, trending on artstation. \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_86.jpg"
+        ]
+    },
+    "sample_88.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a fusion of various elements, making it hard to pinpoint a single theme. However, considering the given prompt, the score would be around 5. The spiral and electric elements are evident, but the perspective and other elements don't align perfectly with the prompt's description.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: an electric pokemon, nightly, spiral, naive nerikomi, weird perspective, extra narrow, detailed illustration, lit by flashlight, scenic spiral environment by rhads from lorax movie, trending artstation, true color, fisheye, grass field mountainous terrain, spiral clouds \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_88.jpg"
+        ]
+    },
+    "sample_89.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a well-rendered digital artwork, capturing the essence of a battle-hardened character set against a modern city backdrop. The character is muscular, wearing a t-shirt and jeans, and exudes confidence. The cityscape in the background is detailed with architecture, and there's a greenish hue that adds to the ambiance. The lighting is soft, and the overall tone of the artwork is both pragmatistic and charismastic. Given the intricate details and the blend of realism with artistic flair, I would give it a score of 9 out of 1.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: battle hardened, overpowering, pragmatic, charismatic character male handsome muscular wearing jeans and t - shirt, portrait, confident, modern cityscape, outdoors, architecture, fog, sunny, volumetric lighting, illustration, perfectly shaded, greenish tinge, cold lights soft painting, art by krenz cushart and wenjun lin \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_89.jpg"
+        ]
+    },
+    "sample_90.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a creative representation of a sea creature, possibly inspired by the works of Maurice Sendak and Shaun Tan. The use of dark green colors and the nighttime setting gives it a mysterious and enchanting ambiance. The creature appears to be floating towards the surface, surrounded by sea k elp. The overall effect is quite captivating, and the AIs seem to have done a good job in capturing the essence of the original artwork while adding their unique touch.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: sea creature by maurice sendak, shaun tan, made in hyperrealistic 3 d, dark green colours, nighttime, floating to the surface of a deep blue ocean with sea kelp \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_90.jpg"
+        ]
+    },
+    "sample_92.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a blend of a photograph and an artistic painting. The architecture and vehicles have a futuresque feel, and the brushwork gives it an impressionistic touch. The lighting and composition are dramatic, and there's a sense of depth and movement in the scene. Given these elements, I would score it around 8 out of 1.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: a photograph of a futuristic street scene, brutalist style, straight edges, finely detailed oil painting, impasto brush strokes, soft light, 8 k, dramatic composition, dramatic lighting, sharp focus, octane render, masterpiece, by adrian ghenie and jenny saville and zhang jingna \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_92.jpg"
+        ]
+    },
+    "sample_93.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a blend of various artistic styles and elements. The AI seems to have successfully captured the essence of a street scene with its brutal architectural style, video displays, and shop signs. The inclusion of a finely-detailed oil painting and impasto strokes adds depth and texture. The dramatic play of light and shadow, combined with the sharp focus on certain elements, makes the image visually striking. Overall, I would give it a score of 8.5 out of 1o, considering the blend and the intricate details captured by the Ai.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: a photograph of a futuristic street scene, brutalist style architecture, straight edges, shop signs, video screens, finely detailed oil painting, impasto brush strokes, soft light, 8 k, dramatic composition, dramatic lighting, sharp focus, octane render, masterpiece, by adrian ghenie and jenny saville and zhang jingna \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_93.jpg"
+        ]
+    },
+    "sample_94.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to capture a serene and mystical ambiance, with a blend of traditional Japanese elements. The levitational red lanters and petal reflections add a touch of fantasy. The score would be around 8, considering the clear focus, lighting, and the overall composition that resonates with the given text prompt, although there are some elements that might not be directly visible in the image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: painting of private onsen next to japanese inn with levitating red lanterns and petals by greg rutkowski craig mullins ross tran cushions towels buckets zen garden flowers japanese motifs concept art clear focus fantasy d & d cinematic lighting unreal engine lumen reflections trending on artstation \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_94.jpg"
+        ]
+    },
+    "sample_95.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to capture a blend of urban and natural elements, with a futuristic or post-apocalyptic vibe. The architecture appears modern, yet abandoned or in a state of decay. The presence of water and the reflection of the buildings suggest a serene environment, juxtaposed against the urban decay. Given the elements present and the textual description, a score of 8 could be given, considering the blend, detail, and the overall mood of the image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: a beautiful photorealistic anime illustration of urbex industrial architecture city architecture unfinished building abandoned post office by renzo piano, laser extraterrestial sunset lake vaporwave elysian at night reclaimed by nature magic realism myst wilderness, archdaily, wallpaper, highly detailed, trending on artstation. \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_95.jpg"
+        ]
+    },
+    "sample_96.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a representation of a cloak room or a similar environment. The lighting suggests it might be either early morning or late afternoon. The presence of the ladder and the hanging clothes indicate a place where people might store their belongings. The overall color palette is cool, with shades of blue and green dominating the scene. The AI seems to have captured the essence of a typical cloak or storage room, but there are some areas where the details might be a bit off or not as realistic as a human artist might have rendered.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: photo cartoon bd illustration comic manga painting of cloakroom environement : 5 fantasy environement, digital painting : 1 fat brush concept sketch artist bd enki bilal : 1 0 \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_96.jpg"
+        ]
+    },
+    "sample_97.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a fusion of a woman with cybernetic features and a serene environment of watering and blooming flowers. The woman appears to be an A.I. or a cyborg, given her unique facial features and the digital elements present. The background showcases a watering can pouring water onto vibrant red flowers, creating a contrast between the mechanical and organic. The art style seems to blend digital painting techniques with airbrushing, giving it a surreal and dreamy quality. The score would be around 8, considering the blend of elements and the artistic representation.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: a woman cyborg watering flowers, airbrush painting, 1 9 8 0 s digital scan \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_97.jpg"
+        ]
+    },
+    "sample_98.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The score is 8. The painting captures the essence of a first summer's day in midsummerscandinavian settings, with a cinematic quality and elements of national romantism as suggested by the text. The use of light and shadow, combined with the watercolor medium, adds depth and emotion to the scene.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: abstract watercolor painting of first summer day, midsummer scandinavia, cinematic light, national romanticism by anders zorn \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_98.jpg"
+        ]
+    },
+    "sample_100.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a fusion of a woman's face with various elements, creating a surreal and intricate visual. The details are meticulous, and the image is highly detailed. The color palette is vibrant, with a mix of natural and artificial hues. The overall composition is visually striking, making it a compelling piece. However, the exact interpretation of the image's meaning and the AIs's success in generating it can be subjective.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: complex 3 d render hyper detailed ultra sharp beautiful woman, porcelain ivory skin, medium shot portrait, close - up, bright 3 point light, alexandre ferra white mecha, iris van herpen cyberpunk mechanical haute couture huge fractal mycelum and fungi filigree lace, rasberry chili red sponge corals, huge magnolia daisies goliath head ornaments, big embroidered leaves sinuous roots, octane render \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_100.jpg"
+        ]
+    },
+    "sample_101.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to capture a blend of nature and urban development, with tall buildings juxtaposed against lush greenery. The use of impasto strokes gives the artwork a textured and three-dimensional feel. The lighting is soft and diffused, creating a serene atmosphere. The score would be around 8 or 9, considering the detailed composition and the harmonious blend between nature and architecture.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: futuristic city with forest, straight edged buildings, street signs, detailed shopfronts, video screens, impasto brush strokes, soft light, 8 k, dramatic composition, dramatic lighting, sharp focus, octane render, concept art, masterpiece, by adrian ghenie and jenny saville and zhang jingna \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_101.jpg"
+        ]
+    },
+    "sample_102.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image is a vivid portrayal of a mystical figure, possibly a witch. The figure has a pronounced and intense gaze, accentuated by the dark makeup and the glowing eyes. The intricate details, from the ornate crown to the flowing, ethereal background, contribute to the overall mystical ambiance. The use of vibrant colors, especially the neon shades of green and purple, adds to the otherworldly feel of the image. Overall, the image is highly detailed and captivating, with a score of 9 out of 1o.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: portait of mystical witch, hyper detailed, flowing background, intricate and detailed, trippy, 8 k \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_102.jpg"
+        ]
+    },
+    "sample_103.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a serene representation of a traditional Japanese onsen or hot spring. The AI has captured the essence of the scene, including the wooden architecture, the flowing water, the red lanters, and the petals. The details, such as the reflection in the water, lighting, and positioning of objects, are well-executed. The score would likely be close to 9 or 1, considering the high level of detail and adherence to the prompt's description.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: painting of private empty onsen next to japanese inn with levitating red lanterns and petals by greg rutkowski craig mullins ross tran bonsai trees cushions towels buckets zen garden flowers ornate japanese motifs concept art fantasy cinematic lighting unreal engine lumen reflections trending on artstation \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_103.jpg"
+        ]
+    },
+    "sample_104.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a fusion of two different styles and eras. The man's attire and the woman's hair color suggest a vintage or historical setting, possibly reminiscent of the Renaissance or Victorian era. The woman'st hair color is a striking shade of red, which is not commonly seen in historical portraits. The background has a muted, artistic quality, and the overall composition is elegant and detailed. The image appears to be an artistic representation rather than a realistic photograph, given the surreal elements and the blending of different styles.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: cinestill 5 0 d depht of gfield of a dreamy beautiful pre - raphaelite cople hypnos and thanatos in style of annie liebovitz - john watherhouse, elegant, highly detailed, pale pink matt, soft blur, artstation, sharp focus, head in focus \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_104.jpg"
+        ]
+    },
+    "sample_105.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to capture a dramatic scene of a house during the golden hour with a stormy sky. The details are quite sharp and hyper-realistic, especially in the foreground. The use of ultra-high-definition (8 k) and the mention of a film camera give it a nostalgic touch. The overall aesthetics align with the tumblir aesthesitic and wallpaper mentioned in the prompt, making it a well-executed piece.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: family home on fire, golden hour, storm sky, ultrahd, ultra sharp, hyper detailed, 8 k, shot on 3 5 mm film camera, tumblr aesthetic, wallpaper \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_105.jpg"
+        ]
+    },
+    "sample_106.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a blend of organic and mechanical elements, creating a unique and intriguing visual. The detailing, especially in the headdress, is quite impressive. However, the overall composition might benefit from a more balanced distribution of colors and a clearer distinction between the he address and the face. Given these observations, I would score it a 7.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: beautiful portrait of a porcelain ivory fair face woman biomechanical cyborg, close - up, sharp focus, studio light, iris van herpen haute couture headdress made of rhizomorphs, daisies, arches, brackets, herbs, colorful corals, fractal mushrooms, puffballs, octane render, ultra sharp, 8 k \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_106.jpg"
+        ]
+    },
+    "sample_108.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a complex 2D render with a hyper-detailed aesthetics. The house appears to be on fire with vibrant flames illuminating the scene. The portrait of a person is visible in the lower right corner, and there's a bright 2-point light source illuminated from the top left. The overall image has a sharp and clear quality, making it visually appealing.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: complex 3 d render hyper detailed ultra sharp aesthetic house on fire, medium portrait, close - up, bright 3 point light \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_108.jpg"
+        ]
+    },
+    "sample_109.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a dragon, seemingly in flight, with large, expansive wings. The dragon has a rich, iridescence to its scales, reflecting hues of gold and green. The eyes of the dragon are expressive, conveying a sense of curiosity or alertness. The overall composition is dynamic, with the dragoon appearing to soar amidst a backdrop of swirling clouds or mist. The artwork is signed by 'mucha arrackham' and credited to 'williamblaKE edmund dulac'.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: illustration of a beautiful iridescent flying dragon with expressive eyes and long tail, by mucha arthurrackham williamblake edmunddulac \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_109.jpg"
+        ]
+    },
+    "sample_110.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to depict a house fire with thick smoke billowing from the roof. There is a ladder leaning against the house, suggesting that someone might have tried to access the roof or escape from the fire. The sky in the background is clear, which contrasts with the chaos of the fire, adding to the drama of the scene.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: house fire, 8 k, shot on film camera \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_110.jpg"
+        ]
+    },
+    "sample_111.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a blend of organic and mechanical elements, with a focus on the woman's face and the intricate headdress. The headdress is made of various shapes and textures, resembling corals and mushroom-like structures. The overall color palette is neutral with hints of gold and white. The image has a high level of detail, especially in the facial features and the headdress, suggesting it might be a result of advanced AI rendering techniques.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: beautiful gorgeous elegant porcelain ivory fair skin mechanoid woman, close - up, sharp focus, studio light, iris van herpen haute couture headdress made of rhizomorphs, daisies, arches, brackets, herbs, colorful corals, fractal mushrooms, puffballs, octane render, ultra sharp, 8 k \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_111.jpg"
+        ]
+    },
+    "sample_114.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be an abstract representation of a monument, possibly of a Roman god, rendered in watercolor. The use of light and shadow gives it a dramatic and cinematic feel. The style is reminiscent of the National Romanticism movement, as suggested by the mention of Anders Zorn. The score would be around 8, considering the artistic interpretation and the adherence to the prompt, with a slight emphasis on the dramatic lighting.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: abstract watercolor painting of roman god monument, in stone and marble, magical and traditional, cinematic light, national romanticism by anders zorn \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_114.jpg"
+        ]
+    },
+    "sample_115.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image portrays a stylish, bald woman with a tattoos on her arm and head. She is seated in a cafe with a detailed background. The image has a realistic and anime-inspired style, with intricate lighting effects. The woman appears to be looking off to the side, and there are various posters and artworks in the background. Overall, the image seems to be a blend of realism and fantasy, capturing the essence of a cyber-themed setting.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: stylish cyberpunk woman with tattoo and bald head, detailed cafe background full body, fine detail, anime, realistic shaded lighting, directional lighting 2 d poster by ilya kuvshinov, magali villeneuve, artgerm, jeremy lipkin and michael garmash and rob rey \n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_115.jpg"
+        ]
+    },
+    "sample_120.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The image is a representation of a white cat lying on a dark-colored sofa. The cat appears to be in a relaxed position, with its body curled up. The image captures the essence of the prompt, with the cat being the primary focus and the sofa providing a contrasting background.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A white cat laying on a black sofa .\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_120.jpg"
+        ]
+    },
+    "sample_133.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The score given is 8. The reasoning is that the image closely captures the essence of the prompt, with a group of sheep standing together in a grassy area near a fence. The colors of the sheep match the description, and the overall composition is consistent with what was asked for.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Close together group of white, beige, and brown sheep, from the rear, standing in grass at fence gate.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_133.jpg"
+        ]
+    },
+    "sample_140.jpg": {
+        "score": [
+            7
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a playful or artistic representation rather than a realistic portrayal of a tennis match. The AI seems to have focused on capturing the essence of the sport, with both individuals holding rackets, but the details, such as the clothing and facial features, are not highly detailed or realistic.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A woman in a red t-shirt and shorts holds on to a tennis racket and on the other side of the net a man in black and white also holds up a tennis racket.\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_140.jpg"
+        ]
+    },
+    "sample_142.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a creative representation of motorcyclists, possibly inspired by a popular culture or artistic theme. The motorcycles are colored in blue, white, and red, matching the clothing of the riders. The image has a vibrant and artistic feel to it, with a slight distortion that adds to its unique aesthetic. The score could be around 8, considering the creativity and the adherence to the prompt, but the distortions might reduce the score for some viewers.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: Motorcyclis in blue white and red clothing with matching colored motorcycle .\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_142.jpg"
+        ]
+    },
+    "sample_145.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a creative representation of two baseball players, one in a traditional blue and black uniform and the other in a more modern black and blue uniform. The AI seems to have captured the essence of the two players, with the blue and blue player having a more realistic appearance, while the black and black player has a slightly more stylized and artistic rendering.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A baseball player in a blue and white uniform is next to a player in black and white .\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_145.jpg"
+        ]
+    },
+    "sample_148.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | The image is a black-and-white stylized illustration of a man singing into a microphone. The man appears to be passionately singing, with his mouth wide open and head tilted back. The background is minimalistic, emphasizing the subject. The overall style of the image is modern and abstract, with clean lines and a lack of intricate details.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: a black and white picture of a white man singing a song\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_148.jpg"
+        ]
+    },
+    "sample_152.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a well-generated representation of a scene with a cat, a blanked, and shelves. The cat is prominently placed in the foreground, and the shelving unit has a few objects on it. The color palette is consistent, and there are no obvious distortions in the image. Therefore, I would give it a score of 9.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: A blue and white cat next to a blanket and shelf with grey bottle .\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_152.jpg"
+        ]
+    },
+    "sample_157.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a dolPHIN standing on grassland with a body of water in the background. The dolphIN appears to be in an upright position, almost as if it's walking on land. The water in background has a shimmering effect, possibly due to sunlight. The overall scene looks like a controlled environment, possibly a zoo or a marine park.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: photograph of a dolphin standing on a grassland\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_157.jpg"
+        ]
+    },
+    "sample_161.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a man in mid-air, seemingly jumping or floating against a clear blue sky. The man is wearing a white t-shirt, black shorts, and brown shoes. His hair is flowing backward, suggesting motion or wind. The sky is mostly clear with a few scattered clouds.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: photograph of a man jumping in the sky\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_161.jpg"
+        ]
+    },
+    "sample_162.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image is a photograph of a black hole.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: photograph of black hole\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_162.jpg"
+        ]
+    },
+    "sample_166.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a woman with a radiant smile, dark skin, and curly hair. She is wearing bold makeup with a striking red lip color. The woman is dressed in a black Balenciaga coat. The background is minimalistic, emphasizing the subject. The image seems to be a 3-D render and is of high resolution, possibly 8-K.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: photograph of one single bright happy woman wearing makeup and makeup, a black balenciaga jacket, walking up a quiet street in front of a laundromat, 3D render, 8K\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_166.jpg"
+        ]
+    },
+    "sample_171.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a hyper-realistic aliens hand puppets, with intricate details and textures. The hand is predominantly green with a carrot-like structure extending from the wrist. The fingers are delicately curved, and the overall appearance is lifelike. The background is plain white, which accentuates the hand's details. The score would be around 9, given the high level of detail and realism in the image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: image of a hyper realistic alien hand puppet on a white background\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_171.jpg"
+        ]
+    },
+    "sample_178.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a modern cityscape with buildings that have a contemporary architectural design. The buildings are multi-storied with a mix of white, gray, and green colors. The rooftops are mostly flat with some having sloped designs. The architecture seems to be a blend of modern and minimalist styles. The sky is clear with a hint of pinkish hue, suggesting either dawn or dusk. There are also some trees and plants placed around the buildings, adding a touch of greenery to the scene.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: photorealistic render of city exterior shot\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_178.jpg"
+        ]
+    },
+    "sample_181.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image is a photorerealistic, highly detailed picture, of a flower crown. The flower has a white petal with a yellow center, surrounded by green leaves. The background is a solid pink color, which contrasts with the flower, making it stand out. The image has a high level of detail, from the texture of the petals to the tiny spots on the yellow center.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: photorealistic, detailed picture of a single flower crown\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_181.jpg"
+        ]
+    },
+    "sample_183.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image is a photorealisistic gem stone skull with a clear, translucent appearance and embedded with multicolored glittery particles.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: photorealistic gemstone skull\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_183.jpg"
+        ]
+    },
+    "sample_184.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a detailed and intricate sculpture that appears to be inspired by a mech or robotic dragon. The design is highly detailed with various components, textures, and colors. The dragon's head is particularly prominent, displaying sharp teeth, glowing eyes, and a mix of metallic and neon colors. Overall, the image seems to be a blend of fantasy and technology, making it a unique and captivating piece.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: photorealistic, hyper detailed sculpture of a large mech dragon\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_184.jpg"
+        ]
+    },
+    "sample_186.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a dense forest of mushrooms with a unique and intricate design. The mushroom caps are large, rounded, and have a brownish hue. The stems are slender and twisty, with a textured appearance. The forest appears to be dimly lit, giving it a mysterious and otherworldly feel. The overall impression is that of a photorealisistic representation of an aliens' fungal habitat.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: photorealistic, inside an alien fungal forest\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_186.jpg"
+        ]
+    },
+    "sample_187.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image is a photorerealistic representation of a desert landscape with a cereus cacti flower in the foreground. The cactii are detailed with textures and colors that mimic real-life cactuses. In the background, there's a vast field of golden sunflower heads, and the sky is filled with dramatic, dark clouds, suggesting an impending storm. The overall composition is hyperrealist in nature, capturing intricate details and creating a sense of depth and scale.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: photorealistic photo of a cactus flower in a field of sunflowershyperrealism, massive clouds, hyperrealistic, epic\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_187.jpg"
+        ]
+    },
+    "sample_189.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to capture a moment of intimacy between a man and a woman, both made of a clay-like material. The details, especially on the woman's face, are intricate and give a sense of realism. The man appears to be whispering something into the woman\u2019s ear, adding to the overall intimate atmosphere. The score could be around 8 or 9, considering the level of detail and the emotional expression captured in the clay figures.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: hyperrealism, man and woman, together, made of clay\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_189.jpg"
+        ]
+    },
+    "sample_190.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a snake with a highly detailed and realistic texture, capturing the intricate patterns and scales of the reptile. The lighting and shadows are meticulously crafted, giving depth and dimension to the snake's features. The overall image is hyperrealistic, closely resembling a real-life photograph.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: hyperrealism animal kingdom\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_190.jpg"
+        ]
+    },
+    "sample_191.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to capture a street scene at night with a cinematic feel. The buildings are rendered in a hyper-realistic style, and the neon signage adds to the ambiance. The lighting is realistic and well-done, and there's a sense of depth and dimension in the scene. The overall impression is that of a high-quality, hyper-rendered backstreet scene.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: hyperrealism backstreet, in front of a massive building, cinematic, neon signs, high resolution, realistic lighting, octane render, hyper realistic, 8k\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_191.jpg"
+        ]
+    },
+    "sample_192.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | The image seems to be a close-up of a young girl's face, with a focus on her eyes. The lens of the glasses appears to be tinted with a yellowish hue. The image has a hyperrealistic quality, with intricate details visible, such as the texture of the skin, the reflection in the eyes, and the refraction of light through the glass. The overall tone of the image is vibrant and captivating.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: hyperrealism, epic photography, closeup, 35mm film, photography, of young girl, in city\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_192.jpg"
+        ]
+    },
+    "sample_193.jpg": {
+        "score": [
+            9
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a dress that appears to be inspired by hyperrealistic art. The dress has intricate details, such as floral patterns and ruffles, which are rendered with a high level of precision and realism. The color palette is soft and muted, further emphasizing the hyperrealist aesthetic. The overall design is elegant and sophisticated, making it suitable for formal occasions.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: hyperrealism detailed dress\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_193.jpg"
+        ]
+    },
+    "sample_196.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The image showcases a vibrant display of fruits, vegetables, and other produce, reminiscent of a market setting. The colors are vivid, and the details are sharp, giving it a hyperrealistic appearance.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThe image is an AI-generated image according to the text prompt.\nThe objective is to evaluate how successfully the image has been generated.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will be given based on the success in following the prompt. \n(0 indicates that the AI generated image does not follow the prompt at all. 10 indicates the AI generated image follows the prompt perfectly.)\n\nPut the score in a list such that output score = [score].\n\nText Prompt: hyperrealism fruits and vegetables market\n",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG/DALLE2/sample_196.jpg"
+        ]
+    }
+}

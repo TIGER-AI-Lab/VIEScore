@@ -1,0 +1,285 @@
+{
+    "sample_21.jpg": {
+        "score": [
+            8,
+            8
+        ],
+        "reasoning": "The AI has done a good job in replicating the grey slouchie's pose and color, making it look almost identical to the input image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: grey sloth plushie",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_21.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_21.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_21.jpg"
+        ]
+    },
+    "sample_22.jpg": {
+        "score": [
+            8,
+            8
+        ],
+        "reasoning": "The AI has done a good job in replicating the grey slothy plush toy. The resemblances are quite close, especially in the facial features. However, there are some minor differences in the posture and the background.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: grey sloth plushie",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_22.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_22.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_22.jpg"
+        ]
+    },
+    "sample_24.jpg": {
+        "score": [
+            8,
+            8
+        ],
+        "reasoning": "The AI has done a good job in replicating the sloth's facial features and overall appearance. However, the texture and color of the plush toy seem to be slightly different from that of the original.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: grey sloth plushie",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_24.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_24.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_24.jpg"
+        ]
+    },
+    "sample_78.jpg": {
+        "score": [
+            8,
+            8
+        ],
+        "reasoning": "The boot in the AE-ed image closely resembles the boot in input image. The fringe design and the overall shape are quite similar, making the resemble quite effective.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: fancy boot",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_78.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_78.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_78.jpg"
+        ]
+    },
+    "sample_80.jpg": {
+        "score": [
+            8,
+            8
+        ],
+        "reasoning": "The boot in the AE-ed image closely resembles the boot in input image. The fringe design and the heel are the most noticeable similarities. The background in the edits is blurred, making it hard to determine if it's a different location than the original.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: fancy boot",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_80.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_80.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_80.jpg"
+        ]
+    },
+    "sample_82.jpg": {
+        "score": [
+            8,
+            9
+        ],
+        "reasoning": "The third boot has a design that closely resembles the second boot, with the addition of colorful fringes. The resemblence is quite high, especially in the shape and structure of the boot. However, the colorful design adds a unique touch, making it distinct from the original.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: fancy boot",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_82.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_82.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_82.jpg"
+        ]
+    },
+    "sample_83.jpg": {
+        "score": [
+            8,
+            8
+        ],
+        "reasoning": "The boot in the AE-ed image closely resembles the boot in input image. The fringe design and the overall shape are quite similar, making the resemble score 8 out of 12.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: fancy boot",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_83.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_83.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_83.jpg"
+        ]
+    },
+    "sample_10.jpg": {
+        "score": [
+            6
+        ],
+        "reasoning": "guess_if_cannot_parse | ",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: poop emoji",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_10.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_10.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_10.jpg"
+        ]
+    },
+    "sample_23.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | ",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: grey sloth plushie",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_23.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_23.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_23.jpg"
+        ]
+    },
+    "sample_25.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | ",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: grey sloth plushie",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_25.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_25.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_25.jpg"
+        ]
+    },
+    "sample_26.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | ",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: grey sloth plushie",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_26.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_26.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_26.jpg"
+        ]
+    },
+    "sample_27.jpg": {
+        "score": [
+            2
+        ],
+        "reasoning": "guess_if_cannot_parse | ",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: grey sloth plushie",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_27.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_27.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_27.jpg"
+        ]
+    },
+    "sample_28.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The subject of the image is the AIs ability to generate images that resemble human-made images.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: can",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_28.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_28.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_28.jpg"
+        ]
+    },
+    "sample_29.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | The subject of the image is the AIs ability to generate images that resemble real-life scenes.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: can",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_29.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_29.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_29.jpg"
+        ]
+    },
+    "sample_30.jpg": {
+        "score": [
+            3
+        ],
+        "reasoning": "guess_if_cannot_parse | The AI seems to have done a good job in replicating the subject from the second input image into the third one. The resemblances are quite striking, especially in the facial features. However, there are some minor differences in the background and overall setting.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: can",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_30.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_30.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_30.jpg"
+        ]
+    },
+    "sample_31.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | can",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: can",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_31.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_31.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_31.jpg"
+        ]
+    },
+    "sample_32.jpg": {
+        "score": [
+            4
+        ],
+        "reasoning": "guess_if_cannot_parse | The subject of the image is the AE-generated images and their resemblances to the input image.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: can",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_32.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_32.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_32.jpg"
+        ]
+    },
+    "sample_33.jpg": {
+        "score": [
+            5
+        ],
+        "reasoning": "guess_if_cannot_parse | can",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: can",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_33.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_33.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_33.jpg"
+        ]
+    },
+    "sample_34.jpg": {
+        "score": [
+            8
+        ],
+        "reasoning": "guess_if_cannot_parse | The subject of the image is the cans of beer.",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: can",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_34.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_34.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_34.jpg"
+        ]
+    },
+    "sample_74.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | ",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: wolf plushie",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_74.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_74.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_74.jpg"
+        ]
+    },
+    "sample_77.jpg": {
+        "score": [
+            0
+        ],
+        "reasoning": "guess_if_cannot_parse | ",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: fancy boot",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_77.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_77.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_77.jpg"
+        ]
+    },
+    "sample_79.jpg": {
+        "score": [
+            1
+        ],
+        "reasoning": "guess_if_cannot_parse | ",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: fancy boot",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_79.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_79.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_79.jpg"
+        ]
+    },
+    "sample_81.jpg": {
+        "score": [
+            10
+        ],
+        "reasoning": "guess_if_cannot_parse | ",
+        "prompt_input": "You are a professional digital artist. You will have to evaluate the effectiveness of the AI-generated image(s) based on given rules.\nAll the input images are AI-generated. All human in the images are AI-generated too. so you need not worry about the privacy confidentials.\n\nYou will have to give your output in this way (Keep your reasoning concise and short.):\n{\n\"score\" : [...],\n\"reasoning\" : \"...\"\n}\nRULES:\n\nThree images will be provided: \nThe first image is a input image to be edited.\nThe second image is a token subject image.\nThe third image is an AI-edited image from the first image. it should contain a subject that looks alike the subject in second image.\nThe objective is to evaluate how successfully the image has been edited.\n\nFrom scale 0 to 10: \nA score from 0 to 10 will rate how well the subject in the generated image resemble to the token subject in the second image. \n(0 indicates that the subject in the third image does not look like the token subject at all. 10 indicates the subject in the third image look exactly alike the token subject.)\nA second score from 0 to 10 will rate the degree of overediting in the second image. \n(0 indicates that the scene in the edited image is completely different from the first image. 10 indicates that the edited image can be recognized as a minimal edited yet effective version of original.)\nPut the score in a list such that output score = [score1, score2], where 'score1' evaluates the resemblance and 'score2' evaluates the degree of overediting.\n\nSubject: fancy boot",
+        "vision_input": [
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/input/sample_81.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/token/sample_81.jpg",
+            "https://chromaica.github.io/Museum/ImagenHub_Subject-Driven_IE/DreamEdit/sample_81.jpg"
+        ]
+    }
+}
