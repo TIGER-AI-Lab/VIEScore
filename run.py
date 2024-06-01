@@ -469,6 +469,12 @@ if __name__ == "__main__":
         mllm_model = GPT4v(gpt4v_keys, are_images_encoded=True)
     elif args.mllm == 'gpt4o':
         from mllm_tools.openai import GPT4o
+        try:
+            gpt4v_keys = get_file_path("YOUR_API_KEY.env")
+            # Alternatively you can do something like this:
+            #gpt4v_keys = [get_file_path("key1.env"), get_file_path("key2.env"), get_file_path("key3.env")]
+        except:
+            print("No secret.env file found. Please create one with your OpenAI API key.")
         mllm_model = GPT4o(gpt4v_keys, are_images_encoded=True)
     elif args.mllm == 'gemini':
         from mllm_tools.gemini import Gemini
