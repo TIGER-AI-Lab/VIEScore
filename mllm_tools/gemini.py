@@ -14,17 +14,30 @@ import os
 from typing import List
 from urllib.parse import urlparse
 import google.generativeai as genai
+import tempfile
 
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
-def upload_to_gemini(path, mime_type=None):
-  """Uploads the given file to Gemini.
+def upload_to_gemini(input, mime_type=None):
+    """Uploads the given file or PIL image to Gemini.
 
-  See https://ai.google.dev/gemini-api/docs/prompting_with_media
-  """
-  file = genai.upload_file(path, mime_type=mime_type)
-  print(f"Uploaded file '{file.display_name}' as: {file.uri}")
-  return file
+    See https://ai.google.dev/gemini-api/docs/prompting_with_media
+    """
+    if isinstance(input, str):
+        # Input is a file path
+        file = genai.upload_file(input, mime_type=mime_type)
+    elif isinstance(input, Image.Image):
+        # Input is a PIL image
+        with tempfile.NamedTemporaryFile(suffix=".jpg", delete=False) as tmp_file:
+            input.save(tmp_file, format="JPEG")
+            tmp_file_path = tmp_file.name
+        file = genai.upload_file(tmp_file_path, mime_type=mime_type or "image/jpeg")
+        os.remove(tmp_file_path)
+    else:
+        raise ValueError("Unsupported input type. Must be a file path or PIL Image.")
+
+    #print(f"Uploaded file '{file.display_name}' as: {file.uri}")
+    return file
 
 def save_image_from_url(url, base_save_directory='tmp', file_name=None):
     # Parse the URL to create a directory path
@@ -90,10 +103,16 @@ class Gemini():
         )
 
     def prepare_prompt(self, image_links: List = [], text_prompt: str = ""):
+        if not isinstance(image_links, list):
+            image_links = [image_links]
+
         images_prompt = []
         for image_link in image_links:
-            image_path = save_image_from_url(image_link)
-            image = upload_to_gemini(image_path, mime_type="image/jpeg")
+            if isinstance(image_link, str):
+              image = save_image_from_url(image_link)
+            else:
+              image = image_link
+            image = upload_to_gemini(image, mime_type="image/jpeg")
             images_prompt.append(image)
 
         prompt_content = [images_prompt, text_prompt]
@@ -110,8 +129,10 @@ class Gemini():
             },
           ]
         )
-
-        response = chat_session.send_message(text_prompt)
+        try:
+          response = chat_session.send_message(text_prompt)
+        except:
+          return "Error in sending message to chat session."
         return self.extract_response(response)
     
     def extract_response(self, response):

@@ -108,7 +108,7 @@ class GPT4v():
                 }
         prompt_content.append(text_dict)
 
-        if isinstance(image_links, str):
+        if not isinstance(image_links, list):
             image_links = [image_links]
         for image_link in image_links:
             image = load_image(image_link)
