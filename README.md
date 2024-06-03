@@ -84,6 +84,12 @@ python3 clean_result.py <your_answers_dir>
 
 Refer to `analyze_json.ipynb` notebook.
 
+## Paper Results
+
+<div align="center">
+<img src="https://tiger-ai-lab.github.io/VIEScore/static/images/table_overall_new.png" width="50%">
+</div>
+
 ## Citation
 
 Please kindly cite our paper if you use our code, data, models or results:
