@@ -28,6 +28,43 @@ VIEScore is a Visual Instruction-guided Explainable metric for evaluating any co
 * 2024 Jan 11: Code is released!
 * 2023 Dec 24: Paper available on [Arxiv](https://arxiv.org/abs/2312.14867). Code coming Soon!
 
+## Paper implementation
+
+See https://github.com/TIGER-AI-Lab/VIEScore/tree/main/paper_implementation
+
+```python
+$ python3 run.py --help
+usage: run.py [-h] [--task {tie,mie,t2i,cig,sdig,msdig,sdie}] [--mllm {gpt4v, gpt4o, llava,blip2,fuyu,qwenvl,cogvlm,instructblip,openflamingo, gemini}] [--setting {0shot,1shot}] [--context_file CONTEXT_FILE]
+              [--guess_if_cannot_parse]
+
+Run different task on VIEScore.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --task {tie,mie,t2i,cig,sdig,msdig,sdie}
+                        Select the task to run
+  --mllm {gpt4v, gpt4o, llava,blip2,fuyu,qwenvl,cogvlm,instructblip,openflamingo, gemini}
+                        Select the MLLM model to use
+  --setting {0shot,1shot}
+                        Select the incontext learning setting
+  --context_file CONTEXT_FILE
+                        Which context file to use.
+  --guess_if_cannot_parse
+                        Guess a value if the output cannot be parsed.
+```
+
+## Standard Version (For Development and Extension)
+
+See https://github.com/TIGER-AI-Lab/VIEScore/tree/main/viescore
+
+```python
+from standalone_viescore import VIEScore
+backbone = "gemini"
+vie_score = VIEScore(backbone=backbone, task="t2v")
+
+score_list = vie_score.evaluate(pil_image, text_prompt)
+sementics_score, quality_score, overall_score = score_list
+```
 
 
 ## Paper Results
