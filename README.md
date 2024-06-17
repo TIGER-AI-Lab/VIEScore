@@ -30,6 +30,12 @@ VIEScore is a Visual Instruction-guided Explainable metric for evaluating any co
 
 
 
+## Paper Results
+
+<div align="center">
+<img src="https://tiger-ai-lab.github.io/VIEScore/static/images/table_overall_new.png" width="50%">
+</div>
+
 ## Citation
 
 Please kindly cite our paper if you use our code, data, models or results:
