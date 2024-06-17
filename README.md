@@ -58,7 +58,7 @@ optional arguments:
 See https://github.com/TIGER-AI-Lab/VIEScore/tree/main/viescore
 
 ```python
-from standalone_viescore import VIEScore
+from viescore import VIEScore
 backbone = "gemini"
 vie_score = VIEScore(backbone=backbone, task="t2v")
 

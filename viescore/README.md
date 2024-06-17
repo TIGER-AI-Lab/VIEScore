@@ -12,7 +12,7 @@ A Standalone version for VIEScore that can be further developed easily.
 ## Running VIEScore
 
 ```python
-from standalone_viescore import VIEScore
+from viescore import VIEScore
 backbone = "gemini"
 vie_score = VIEScore(backbone=backbone, task="t2v")
 
