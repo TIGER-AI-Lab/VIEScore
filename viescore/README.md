@@ -10,7 +10,7 @@ A Standalone version for VIEScore that can be further developed easily.
 * `__init__.py` Implementation of VIEScore.
 
 ## Running VIEScore
-
+![](https://tiger-ai-lab.github.io/VIEScore/static/images/method.png)
 ```python
 from viescore import VIEScore
 backbone = "gemini"
