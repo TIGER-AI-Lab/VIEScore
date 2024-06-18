@@ -28,6 +28,9 @@ VIEScore is a Visual Instruction-guided Explainable metric for evaluating any co
 * 2024 Jan 11: Code is released!
 * 2023 Dec 24: Paper available on [Arxiv](https://arxiv.org/abs/2312.14867). Code coming Soon!
 
+![](https://tiger-ai-lab.github.io/VIEScore/static/images/method.png)
+> VIEScore gives an SC(semantic consistency score), PQ(perceptual quality score), and O (Overall score) to evaluate your image/video.
+
 ## Paper implementation
 
 See https://github.com/TIGER-AI-Lab/VIEScore/tree/main/paper_implementation
