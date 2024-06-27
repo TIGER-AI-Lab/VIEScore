@@ -6,7 +6,7 @@
 [![GitHub](https://img.shields.io/github/stars/TIGER-AI-Lab/VIEScore?style=social)](https://github.com/TIGER-AI-Lab/VIEScore)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FTIGER-AI-Lab%2FVIEScore&count_bg=%23C83DB9&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false)](https://hits.seeyoufarm.com)
 
-This repository hosts our work's code [VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation](https://tiger-ai-lab.github.io/VIEScore/).
+This repository hosts the code and data of our ACL 2024 Paper [VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation](https://tiger-ai-lab.github.io/VIEScore/).
 
 VIEScore is a Visual Instruction-guided Explainable metric for evaluating any conditional image generation tasks.
 
