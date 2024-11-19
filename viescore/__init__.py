@@ -47,7 +47,6 @@ class VIEScore:
             self.PQ_prompt = "\n".join([self.context, vie_prompts._prompts_0shot_t2v_rule_PQ])
 
     def evaluate(self, image_prompts, text_prompt, extract_overall_score_only=False, extract_all_score=True, echo_output=False):
-        self.update_task_prompts()
         if not isinstance(image_prompts, list):
             image_prompts = [image_prompts]
         if self.backbone_name in ['gpt4o', 'gpt4v']:
