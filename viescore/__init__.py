@@ -104,12 +104,12 @@ if __name__ == "__main__":
     model = VIEScore(backbone="gemini", task="t2i")
     from datasets import load_dataset
     dataset = load_dataset("TIGER-Lab/GenAI-Arena-Bench", "image_generation")
-    dataset = dataset["train"]
+    dataset = dataset["test"]
     print("Now running the VIEScore model")
     for idx in range(5):
         left_image = dataset['left_image'][idx]
         right_image = dataset['right_image'][idx]
         prompt = dataset['prompt'][idx]
-        print(model.evaluate(left_image, prompt, extract_overall_score=True))
-        print(model.evaluate(right_image, prompt, extract_overall_score=True))
+        print(model.evaluate(left_image, prompt, extract_all_score=True))
+        print(model.evaluate(right_image, prompt, extract_all_score=True))
 
